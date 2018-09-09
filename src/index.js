@@ -9,13 +9,20 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import { storeSeed } from './actions/actions'
 
+import { uuidv4, uuidToNumber, seededRNG } from './uuid-helper';
+
 // Initialise store. Pass in reducers. Pass in redux devtools extension.
 const store = createStore(
     reducers, 
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 
-store.dispatch(storeSeed('1234'));
+store.dispatch(storeSeed(uuidToNumber(uuidv4())));
+
+var rng = seededRNG('test');
+console.log(rng());
+console.log(rng());
+console.log(rng());
 
 ReactDOM.render(
     <Provider store={store}>
