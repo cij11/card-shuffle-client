@@ -10,6 +10,7 @@ import { Provider } from 'react-redux';
 import { storeSeed } from './actions/actions'
 
 import { uuidv4, uuidToNumber, seededRNG } from './uuid-helper';
+import { constructStandardDeck } from './deck-library';
 
 // Initialise store. Pass in reducers. Pass in redux devtools extension.
 const store = createStore(
@@ -23,6 +24,8 @@ var rng = seededRNG('test');
 console.log(rng());
 console.log(rng());
 console.log(rng());
+
+constructStandardDeck();
 
 ReactDOM.render(
     <Provider store={store}>
