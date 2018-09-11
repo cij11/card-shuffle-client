@@ -16,6 +16,7 @@ const constructStandardDeck = () => {
             standardDeck.push(card);
         }
     }
+    console.log(standardDeck);
     return standardDeck;
 };
 

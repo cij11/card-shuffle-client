@@ -9,8 +9,9 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import { storeSeed } from './actions/actions'
 
-import { uuidv4, uuidToNumber, seededRNG } from './uuid-helper';
+import { uuidv4, uuidToNumber } from './uuid-helper';
 import { constructStandardDeck } from './deck-library';
+import { getCard } from './deck-manipulation';
 
 // Initialise store. Pass in reducers. Pass in redux devtools extension.
 const store = createStore(
@@ -18,14 +19,20 @@ const store = createStore(
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 
-store.dispatch(storeSeed(uuidToNumber(uuidv4())));
+var seed = uuidv4();
+store.dispatch(storeSeed(uuidToNumber(seed)));
 
-var rng = seededRNG('test');
-console.log(rng());
-console.log(rng());
-console.log(rng());
+// Should always output the same deck with the same seed
+var standardDeck = constructStandardDeck();
+var gi, gj;
 
-constructStandardDeck();
+for (gj = 0; gj < 5; gj++) {
+    console.log("Trial: " + gj);
+    for (gi = 0; gi < 4; gi++) {
+        console.log(getCard(standardDeck, gi, seed));
+    };
+};
+
 
 ReactDOM.render(
     <Provider store={store}>

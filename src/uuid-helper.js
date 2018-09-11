@@ -1,5 +1,5 @@
 const uuidv4 = require('uuid/v4');
-const seedrandom = require('seedrandom');
+
 
 const removeDashes = (uuid) => {
     return uuid.replace(/-/g, '');
@@ -16,8 +16,4 @@ const uuidToNumber = (uuid) => {
     return parsedNumber;
 }
 
-const seededRNG = (seed) => {
-    return seedrandom(seed);
-}
-
-export { uuidv4, uuidToNumber, seededRNG };
+export { uuidv4, uuidToNumber };
