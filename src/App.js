@@ -5,6 +5,8 @@ import './App.css';
 
 import { connect } from 'react-redux';
 
+import CardContainer from './containers/card-container';
+
 class App extends Component {
   render() {
     return (
@@ -19,6 +21,9 @@ class App extends Component {
         <p>
           {this.props.seed}
         </p>
+        <div>
+          <CardContainer />
+        </div>
       </div>
     );
   }

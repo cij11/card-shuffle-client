@@ -7,7 +7,7 @@ import registerServiceWorker from './registerServiceWorker';
 import reducers from './reducers/reducers';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
-import { storeSeed } from './actions/actions'
+import { storeSeed, drawCard } from './actions/actions'
 
 import { uuidv4, uuidToNumber } from './uuid-helper';
 import { constructStandardDeck } from './deck-library';
@@ -21,6 +21,7 @@ const store = createStore(
 
 var seed = uuidv4();
 store.dispatch(storeSeed(uuidToNumber(seed)));
+store.dispatch(drawCard(4));
 
 // Should always output the same deck with the same seed
 var standardDeck = constructStandardDeck();
