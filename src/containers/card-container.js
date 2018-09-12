@@ -4,10 +4,12 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
+import CardComponent from '../components/card-component';
+
 class CardContainer extends Component {
     render() {
         return (
-            <span>{this.props.card.data.value}</span>
+            <CardComponent data={this.props.card.data} />
         );
     }
 }
