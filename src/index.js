@@ -21,7 +21,7 @@ const store = createStore(
 
 var seed = uuidv4();
 store.dispatch(storeSeed(uuidToNumber(seed)));
-store.dispatch(drawCard(4));
+//store.dispatch(drawCard(4));
 
 // Should always output the same deck with the same seed
 var standardDeck = constructStandardDeck();

@@ -2,9 +2,7 @@ import { STORE_SEED, DRAW_CARD } from '../actions/actions';
 import { combineReducers } from 'redux';
 
 import { constructStandardDeck } from '../deck-library';
-import { getCard } from '../deck-manipulation';
-
-const standardDeck = constructStandardDeck();
+import { shuffleDeck } from '../deck-manipulation';
 
 function seed (seed = 'abcd', action) {
     switch (action.type) {
@@ -15,19 +13,30 @@ function seed (seed = 'abcd', action) {
     }
 }
 
-function card (card = getCard(standardDeck, 0, '1'), action) {
+function cards ( cards = initialCardState(), action) {
     switch (action.type) {
         case DRAW_CARD:
-            return getCard(standardDeck, action.cardNum, '1');
+            return {
+                card: cards.deck.pop(),
+                deck: cards.deck,
+            }
         default:
-            return card
+            return cards;
+    }
+}
+
+function initialCardState() {
+    var deck = shuffleDeck(constructStandardDeck());
+    return {
+        card: deck.pop(),
+        deck: deck,
     }
 }
 
 const reducers = combineReducers(
     {
         seed,
-        card,
+        cards,
     }
 )
 

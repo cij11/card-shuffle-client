@@ -1,5 +1,6 @@
 
 const seedrandom = require('seedrandom');
+const _ = require('lodash');
 
 // Get the cardNumber'th card from the deck.  
 // This operation takes in the full deck of cards, and returns the card which would be drawn
@@ -35,4 +36,11 @@ const getCard = (deck, cardNumber, seed) => {
   return deck[shuffledPositions[cardNumber]];
 }
 
-export { getCard };
+// Shuffle a deck, using a seed if one is provided
+const shuffleDeck = (deck, seed) => {
+    _.shuffle(deck);
+    return deck;
+}
+
+
+export { getCard, shuffleDeck };
