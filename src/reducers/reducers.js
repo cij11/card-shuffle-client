@@ -26,7 +26,7 @@ function cards ( cards = initialCardState(), action) {
 }
 
 function initialCardState() {
-    var deck = shuffleDeck(constructStandardDeck());
+    var deck = shuffleDeck(constructStandardDeck(), '2');
     return {
         card: deck.pop(),
         deck: deck,
