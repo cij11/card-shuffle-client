@@ -31,7 +31,7 @@ const cards = (cards = initialCardState(), action) => {
 }
 
 const initialCardState = () => {
-    var deck = shuffleDeck(constructStandardDeck(), '2');
+    var deck = shuffleDeck(constructStandardDeck(), '1');
     return {
         card: deck.pop(),
         deck: deck,

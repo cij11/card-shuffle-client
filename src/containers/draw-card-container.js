@@ -15,16 +15,10 @@ class DrawCardContainer extends Component {
     }
 }
 
-const mapStateToProps = (state) => (
-    {
-        blah: 'blah'
-    }
-);
-
 const mapDispatchToProps = (dispatch) => (
     {
         drawCard: () => {dispatch(drawCard())}
     }
 );
 
-export default connect(mapStateToProps, mapDispatchToProps)(DrawCardContainer);
+export default connect(null, mapDispatchToProps)(DrawCardContainer);
