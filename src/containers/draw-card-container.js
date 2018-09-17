@@ -3,14 +3,12 @@ import { connect } from 'react-redux';
 
 import { drawCard } from '../actions/actions';
 
+import DrawCardComponent from '../components/draw-card-component';
+
 class DrawCardContainer extends Component {
     render() {
         return(
-            <div>
-                <button onClick={this.props.drawCard}>
-                    Draw a Card
-                </button>
-            </div>
+            <DrawCardComponent drawCard={this.props.drawCard} />
         );
     }
 }
