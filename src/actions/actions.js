@@ -8,8 +8,9 @@ export const storeSeed = seed => (
     }
 )
 
-export const drawCard = () => (
+export const drawCard = deckNames => (
     {
-        type: DRAW_CARD
+        type: DRAW_CARD,
+        deckNames,
     }
 )

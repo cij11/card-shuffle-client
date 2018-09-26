@@ -19,7 +19,7 @@ CardContainer.propTypes = {
   };
 
 const mapStateToProps = state => ({
-    card: state.cards.card,
+    card: state.decks[0].card,
 });
   
 export default connect(mapStateToProps,)(CardContainer);

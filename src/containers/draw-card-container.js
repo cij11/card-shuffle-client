@@ -15,7 +15,7 @@ class DrawCardContainer extends Component {
 
 const mapDispatchToProps = (dispatch) => (
     {
-        drawCard: () => {dispatch(drawCard())}
+        drawCard: () => {dispatch(drawCard(['deck-number-0', 'deck-number-1']))}
     }
 );
 
