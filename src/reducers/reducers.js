@@ -32,7 +32,7 @@ const popSelectedDeckNames = (decks, deckNames) => {
                 updatedDecks.push(
                     {
                         deckName: deck.deckName,
-                        card: deck.deck.pop(),
+                        card: deck.deck.pop() || deck.card, //If the deck is empty, stay on the last card
                         deck: deck.deck,
                     }
                 )
@@ -50,7 +50,7 @@ const initialDecksState = () => {
         initialDecks = [];
 
     for (var i = 0; i < NUM_DECKS; i++) {
-        deck = shuffleDeck(constructStandardDeck(), 'i');
+        deck = shuffleDeck(constructStandardDeck(), "seed" + i);
         card = deck.pop();
         initialDecks.push({
             deckName: "deck-number-" + i,

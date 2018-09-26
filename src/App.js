@@ -7,6 +7,7 @@ import { connect } from 'react-redux';
 
 import CardContainer from './containers/card-container';
 import DrawCardContainer from './containers/draw-card-container';
+import DrawCharacterContainer from './containers/draw-character-container';
 
 class App extends Component {
   render() {
@@ -17,10 +18,16 @@ class App extends Component {
           <h1 className="App-title">Welcome to Card Shuffle</h1>
         </header>
         <div>
-          <CardContainer />
+          <CardContainer deckName={"deck-number-0"}/>
         </div>
         <div>
           <DrawCardContainer />
+        </div>
+        <div>
+          <CardContainer deckName={"deck-number-1"}/>
+        </div>
+        <div>
+          <DrawCharacterContainer />
         </div>
       </div>
     );

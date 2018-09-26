@@ -5,7 +5,7 @@ import { drawCard } from '../actions/actions';
 
 import DrawCardComponent from '../components/draw-card-component';
 
-class DrawCardContainer extends Component {
+class DrawCharacterContainer extends Component {
     render() {
         return(
             <DrawCardComponent drawCard={this.props.drawCard} />
@@ -15,8 +15,8 @@ class DrawCardContainer extends Component {
 
 const mapDispatchToProps = (dispatch) => (
     {
-        drawCard: () => {dispatch(drawCard(['deck-number-0']))}
+        drawCard: () => {dispatch(drawCard(['deck-number-1']))}
     }
 );
 
-export default connect(null, mapDispatchToProps)(DrawCardContainer);
+export default connect(null, mapDispatchToProps)(DrawCharacterContainer);
