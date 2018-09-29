@@ -26,6 +26,18 @@ button {
   font-size: large;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+
+.wrapper div {
+  background: #eeeeee;
+  padding: 1em;
+}
+
 /* #Turquoise Flat Button
 ==================================================*/
 .turquoise-flat-button {
