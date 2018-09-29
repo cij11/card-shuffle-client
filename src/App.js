@@ -13,26 +13,25 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to Card Shuffle</h1>
         </header>
 
         <div className="wrapper">
-          <div>
+          <div className="drawGroup">
             <div>
               <CardContainer deckName={"deck-number-0"}/>
             </div>
             <div>
-              <DrawCardContainer drawDecks={["deck-number-0"]}/>
+              <DrawCardContainer drawDecks={["deck-number-0"]} text={"Draw New Room"}/>
             </div>
           </div>
 
-          <div>
+          <div className="drawGroup">
             <div>
               <CardContainer deckName={"deck-number-1"}/>
             </div>
             <div>
-              <DrawCardContainer drawDecks={["deck-number-1"]}/>
+              <DrawCardContainer drawDecks={["deck-number-1"]} text={"Draw New Character"}/>
             </div>
           </div>
         </div>

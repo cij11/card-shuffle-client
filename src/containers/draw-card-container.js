@@ -8,7 +8,7 @@ import DrawCardComponent from '../components/draw-card-component';
 class DrawCardContainer extends Component {
     render() {
         return(
-            <DrawCardComponent drawCard={this.props.drawCard} />
+            <DrawCardComponent drawCard={this.props.drawCard} text={this.props.text}/>
         );
     }
 }

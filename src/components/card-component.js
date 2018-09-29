@@ -4,11 +4,11 @@ class CardComponent extends Component {
 
     render() {
         return (
-            <div>
-                <div>
+            <div className="cardComponent">
+                <div className="cardSection">
                     Suit: {this.props.data.suit}
                 </div>
-                <div>
+                <div className="cardSection">
                     Value: {this.props.data.value}
                 </div>
             </div>

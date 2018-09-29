@@ -5,7 +5,7 @@ class DrawCardComponent extends Component {
         return (
             <div>
                 <button onClick={this.props.drawCard} class="turquoise-flat-button">
-                    Draw a Card
+                    {this.props.text}
                 </button>
             </div>
         );

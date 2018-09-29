@@ -2,14 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
-  background-color: #222;
-  height: 150px;
+  background-color: rgb(30, 37, 58);
   padding: 20px;
   color: white;
 }
@@ -35,6 +29,17 @@ button {
 
 .wrapper div {
   background: #eeeeee;
+}
+
+.drawGroup {
+  padding: 1em;
+}
+
+.cardComponent {
+  padding: 1em;
+}
+
+.cardSection {
   padding: 1em;
 }
 
