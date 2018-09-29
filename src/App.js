@@ -21,13 +21,13 @@ class App extends Component {
           <CardContainer deckName={"deck-number-0"}/>
         </div>
         <div>
-          <DrawCardContainer />
+          <DrawCardContainer drawDecks={["deck-number-0"]}/>
         </div>
         <div>
           <CardContainer deckName={"deck-number-1"}/>
         </div>
         <div>
-          <DrawCharacterContainer />
+          <DrawCardContainer drawDecks={["deck-number-1"]}/>
         </div>
       </div>
     );

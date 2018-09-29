@@ -4,7 +4,7 @@ class DrawCardComponent extends Component {
     render() {
         return (
             <div>
-                <button onClick={this.props.drawCard}>
+                <button onClick={this.props.drawCard} class="turquoise-flat-button">
                     Draw a Card
                 </button>
             </div>
