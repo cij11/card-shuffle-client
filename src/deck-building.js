@@ -11,7 +11,6 @@ const buildDeck = (deckName, cards) => {
     return {
         deckName,
         cards,
-        topCard: cards.pop(),
     }
 }
 

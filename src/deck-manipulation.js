@@ -67,15 +67,13 @@ const shuffleCards = (cards, seed) => {
     }
 }
 
-const drawTopCard = (deck) => {
-    var remainingCards = deck.cards;
+const removeTopCard = (deck) => {
     var afterDeck =  {
         deckName: deck.deckName,
-        topCard: remainingCards.pop() || deck.topCard,
-        cards: remainingCards,
+        cards: deck.cards.length > 1 ? deck.cards.slice(0, -1) : deck.cards,
     }
     return afterDeck;
 }
 
 
-export { getCard, shuffleDeck, shuffleCards, drawTopCard };
+export { getCard, shuffleDeck, shuffleCards, removeTopCard };

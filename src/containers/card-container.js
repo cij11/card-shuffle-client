@@ -8,7 +8,8 @@ import CardComponent from '../components/card-component';
 
 class CardContainer extends Component {
     render() {
-        var topCard = this.getDeckByName().topCard;
+        var cards = this.getDeckByName().cards,
+            topCard = cards[cards.length-1];
         return (
             <CardComponent data={topCard.data} />
         );

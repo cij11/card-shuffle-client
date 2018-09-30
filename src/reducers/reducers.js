@@ -2,7 +2,7 @@ import { STORE_SEED, DRAW_CARD } from '../actions/actions';
 import { combineReducers } from 'redux';
 
 import { roomDeck, characterDeck, standardDeck } from '../deck-library';
-import { shuffleDeck, drawTopCard } from '../deck-manipulation';
+import { shuffleDeck, removeTopCard } from '../deck-manipulation';
 
 const NUM_DECKS = 1;
 
@@ -32,13 +32,7 @@ const popSelectedDeckNames = (decks, deckNames) => {
     decks.forEach(
         (deck) => {
             if(deckNames.includes(deck.deckName)) {
-                updatedDecks.push(
-                    {
-                        deckName: deck.deckName,
-                        topCard: deck.cards.pop() || deck.topCard, //If the deck is empty, stay on the last card
-                        cards: deck.cards,
-                    }
-                )
+                updatedDecks.push(removeTopCard(deck) );
             } else {
                 updatedDecks.push(deck);
             }
