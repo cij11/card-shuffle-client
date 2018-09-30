@@ -8,9 +8,9 @@ import CardComponent from '../components/card-component';
 
 class CardContainer extends Component {
     render() {
-        var card = this.getDeckByName().card;
+        var topCard = this.getDeckByName().topCard;
         return (
-            <CardComponent data={card.data} />
+            <CardComponent data={topCard.data} />
         );
     }
 

@@ -1,10 +1,10 @@
 import { STORE_SEED, DRAW_CARD } from '../actions/actions';
 import { combineReducers } from 'redux';
 
-import { constructStandardDeck } from '../deck-library';
+import { constructStandardDeck, constructCharacterDeck } from '../deck-library';
 import { shuffleDeck } from '../deck-manipulation';
 
-const NUM_DECKS = 2;
+const NUM_DECKS = 1;
 
 const seed = (seed = 'abcd', action) => {
     switch (action.type) {
@@ -32,8 +32,8 @@ const popSelectedDeckNames = (decks, deckNames) => {
                 updatedDecks.push(
                     {
                         deckName: deck.deckName,
-                        card: deck.deck.pop() || deck.card, //If the deck is empty, stay on the last card
-                        deck: deck.deck,
+                        topCard: deck.cards.pop() || deck.topCard, //If the deck is empty, stay on the last card
+                        cards: deck.cards,
                     }
                 )
             } else {
@@ -45,19 +45,25 @@ const popSelectedDeckNames = (decks, deckNames) => {
 }
 
 const initialDecksState = () => {
-    var deck,
-        card,
+    var cards,
+        characterDeck,
+        topCard,
         initialDecks = [];
 
     for (var i = 0; i < NUM_DECKS; i++) {
-        deck = shuffleDeck(constructStandardDeck(), "seed" + i);
-        card = deck.pop();
+        cards = shuffleDeck(constructStandardDeck(), "seed" + i);
+        topCard = cards.pop();
         initialDecks.push({
             deckName: "deck-number-" + i,
-            card,
-            deck,
+            topCard,
+            cards,
         });
     }
+
+    characterDeck = constructCharacterDeck();
+
+
+    initialDecks.push(characterDeck);
 
     return initialDecks;
 }

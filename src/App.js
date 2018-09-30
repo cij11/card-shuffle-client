@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import logo from './logo.svg';
 import './App.css';
 
 import { connect } from 'react-redux';
@@ -28,10 +27,10 @@ class App extends Component {
 
           <div className="drawGroup">
             <div>
-              <CardContainer deckName={"deck-number-1"}/>
+              <CardContainer deckName={"characters"}/>
             </div>
             <div>
-              <DrawCardContainer drawDecks={["deck-number-1"]} text={"Draw New Character"}/>
+              <DrawCardContainer drawDecks={["characters"]} text={"Draw New Character"}/>
             </div>
           </div>
         </div>

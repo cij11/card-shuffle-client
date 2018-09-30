@@ -1,4 +1,8 @@
 // Hard coded decks of cards
+import characterDeck from './deck-content/character-deck.js';
+
+// a deck has a deckName, a topCard, and a cards array.
+// Each card has a data object.
 
 const constructStandardDeck = () => {
     var i, j,
@@ -9,8 +13,8 @@ const constructStandardDeck = () => {
         for (j = 0; j < 13; j++ ) {
             card = {
                 data : {
-                    suit: i,
-                    value: j,
+                    title: "Suit: " + i,
+                    text: "Value: " + j,
                 }
             }
             standardDeck.push(card);
@@ -20,4 +24,8 @@ const constructStandardDeck = () => {
     return standardDeck;
 };
 
-export { constructStandardDeck };
+const constructCharacterDeck = () => {
+    return characterDeck;
+}
+
+export { constructStandardDeck, constructCharacterDeck };

@@ -6,10 +6,10 @@ class CardComponent extends Component {
         return (
             <div className="cardComponent">
                 <div className="cardSection">
-                    Suit: {this.props.data.suit}
+                    Title - {this.props.data.title}
                 </div>
                 <div className="cardSection">
-                    Value: {this.props.data.value}
+                    Text - {this.props.data.text}
                 </div>
             </div>
         );
