@@ -36,17 +36,23 @@ const getCard = (deck, cardNumber, seed) => {
   return (deck[shuffledPositions[cardNumber]]);
 }
 
-// Shuffle a deck, using a seed if one is provided
-// This method is space heavy 
 const shuffleDeck = (deck, seed) => {
+    deck.cards = shuffleCards(deck.cards, seed);
+  //  deck.cards = [{data: {title: 'bah', text: 'humbug'}}];
+    return deck;
+}
+
+// Shuffle a cards, using a seed if one is provided
+// This method is space heavy 
+const shuffleCards = (cards, seed) => {
     if (seed) {
-        var clonedDeck = _.clone(deck), // Shallow clone. References will be preserved.
+        var clonedDeck = _.clone(cards), // Shallow clone. References will be preserved.
             shuffledDeck = [];
 
         var rng = seedrandom(seed);
 
         var i = 0;
-        for (i = 0; i < deck.length; i++) {
+        for (i = 0; i < cards.length; i++) {
             var nextPos = Math.floor((rng() * clonedDeck.length));
     
             shuffledDeck.push(clonedDeck[nextPos]);
@@ -57,9 +63,19 @@ const shuffleDeck = (deck, seed) => {
         return shuffledDeck;
 
     } else {
-        return _.shuffle(deck);
+        return _.shuffle(cards);
     }
 }
 
+const drawTopCard = (deck) => {
+    var remainingCards = deck.cards;
+    var afterDeck =  {
+        deckName: deck.deckName,
+        topCard: remainingCards.pop() || deck.topCard,
+        cards: remainingCards,
+    }
+    return afterDeck;
+}
 
-export { getCard, shuffleDeck };
+
+export { getCard, shuffleDeck, shuffleCards, drawTopCard };

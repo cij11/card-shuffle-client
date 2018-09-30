@@ -18,10 +18,10 @@ class App extends Component {
         <div className="wrapper">
           <div className="drawGroup">
             <div>
-              <CardContainer deckName={"deck-number-0"}/>
+              <CardContainer deckName={"rooms"}/>
             </div>
             <div>
-              <DrawCardContainer drawDecks={["deck-number-0"]} text={"Draw New Room"}/>
+              <DrawCardContainer drawDecks={["rooms"]} text={"Draw New Room"}/>
             </div>
           </div>
 
