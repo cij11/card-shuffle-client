@@ -67,6 +67,8 @@ const shuffleCards = (cards, seed) => {
     }
 }
 
+// Remove the top card from the deck, provided there is more than one card left.
+// Otherwise, return the deck unchanged.
 const removeTopCard = (deck) => {
     var afterDeck =  {
         deckName: deck.deckName,
@@ -75,5 +77,25 @@ const removeTopCard = (deck) => {
     return afterDeck;
 }
 
+// Pass in a deck. Split the deck into that many piles of equal size.
+// Return the selectedPile'th pile.
+// If the deck does not split evenly, excess cards will be discarded.
+const splitCards = (cards, numPiles, selectedPile) => {
+    let chunkSize = Math.floor(cards.length / numPiles),
+        pile = cards.slice(selectedPile * chunkSize, (selectedPile + 1) * chunkSize);
 
-export { getCard, shuffleDeck, shuffleCards, removeTopCard };
+    console.log(cards);
+    console.log("Chunksize: " + chunkSize);
+    console.log(pile);
+
+    return pile;
+}
+
+const splitDeck = (deck, numPiles, selectedPile) => {
+    deck.cards = splitCards(deck.cards, numPiles, selectedPile);
+
+    return deck;
+}
+
+
+export { getCard, shuffleDeck, shuffleCards, removeTopCard, splitDeck };
