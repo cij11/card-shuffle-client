@@ -2,9 +2,10 @@
 import characterDeck from './deck-content/character-deck.js';
 import roomDeck from './deck-content/room-deck.js';
 import standardDeck from './deck-content/standard-deck.js';
+import itemDeck from './deck-content/item-deck.js';
 
 // a deck has a deckName, a topCard, and a cards array.
 // Each card has a data object.
 
 
-export { characterDeck, roomDeck, standardDeck };
+export { characterDeck, roomDeck, standardDeck, itemDeck };

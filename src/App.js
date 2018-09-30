@@ -21,7 +21,10 @@ class App extends Component {
               <CardContainer deckName={"rooms"}/>
             </div>
             <div>
-              <DrawCardContainer drawDecks={["rooms"]} text={"Draw New Room"}/>
+              <CardContainer deckName={"items"}/>
+            </div>
+            <div>
+              <DrawCardContainer drawDecks={["rooms", "items"]} text={"Draw New Room"}/>
             </div>
           </div>
 

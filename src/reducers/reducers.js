@@ -1,7 +1,7 @@
 import { STORE_SEED, DRAW_CARD } from '../actions/actions';
 import { combineReducers } from 'redux';
 
-import { roomDeck, characterDeck, standardDeck } from '../deck-library';
+import { roomDeck, characterDeck, standardDeck, itemDeck } from '../deck-library';
 import { shuffleDeck, removeTopCard } from '../deck-manipulation';
 
 const NUM_DECKS = 1;
@@ -15,19 +15,16 @@ const seed = (seed = 'abcd', action) => {
     }
 }
 
-const decks = (decks, action) => {
-    if (!decks) {
-        decks = initialDecksState();
-    }
+const decks = (decks = initialDecksState(), action) => {
     switch (action.type) {
         case DRAW_CARD:
-            return popSelectedDeckNames(decks, action.deckNames);
+            return dealFromSelectedDeckNames(decks, action.deckNames);
         default:
             return decks;
     }
 }
 
-const popSelectedDeckNames = (decks, deckNames) => {
+const dealFromSelectedDeckNames = (decks, deckNames) => {
     var updatedDecks = [];
     decks.forEach(
         (deck) => {
@@ -47,10 +44,9 @@ const initialDecksState = () => {
     initialDecks.push(characterDeck);
     initialDecks.push(roomDeck);
     initialDecks.push(standardDeck);
+    initialDecks.push(itemDeck);
 
-    return initialDecks.map(deck => shuffleDeck(deck));//map(deck => drawTopCard(deck));
-   // return initialDecks.map(deck => drawTopCard(deck));
-  //return initialDecks;
+    return initialDecks.map(deck => shuffleDeck(deck));
 }
 
 const reducers = combineReducers(
