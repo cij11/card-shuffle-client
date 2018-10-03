@@ -7,6 +7,7 @@ import { connect } from 'react-redux';
 import CardContainer from './containers/card-container';
 import DrawCardContainer from './containers/draw-card-container';
 import SelectPlayerContainer from './containers/select-player-container';
+import EnterSeedContainer from './containers/enter-seed-container';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to Card Shuffle</h1>
           <SelectPlayerContainer playerNumber={0}/>
           <SelectPlayerContainer playerNumber={1}/>
+          <EnterSeedContainer />
         </header>
 
         <div className="wrapper">
