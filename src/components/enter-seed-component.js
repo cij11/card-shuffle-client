@@ -8,11 +8,13 @@ class EnterSeedComponent extends Component {
 
     render() {
         return (
-            <input type="text"
-                name="seed"
-                value={this.state.seed} 
-                onChange={this.handleChange.bind(this)}
-            />
+            <div>
+                <input type="text"
+                    name="seed"
+                    value={this.state.seed} 
+                    onChange={this.handleChange.bind(this)}
+                />
+            </div>
         );
     }
 

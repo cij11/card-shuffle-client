@@ -6,9 +6,8 @@ import { connect } from 'react-redux';
 
 import CardContainer from './containers/card-container';
 import DrawCardContainer from './containers/draw-card-container';
-import SelectPlayerContainer from './containers/select-player-container';
-import EnterSeedContainer from './containers/enter-seed-container';
 import ExpandingTextComponent from './components/expanding-text-component';
+import ExpandingSettingsComponent from './components/expanding-settings-component';
 
 class App extends Component {
   render() {
@@ -21,9 +20,7 @@ class App extends Component {
                 <ExpandingTextComponent />
               </div>
               <div className="drawGroup">
-                <SelectPlayerContainer playerNumber={0}/>
-                <SelectPlayerContainer playerNumber={1}/>
-                <EnterSeedContainer />
+                <ExpandingSettingsComponent />
               </div>
             </div>
         </header>
