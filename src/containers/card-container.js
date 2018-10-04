@@ -28,8 +28,8 @@ class CardContainer extends Component {
 }
 
 CardContainer.propTypes = {
-    card: PropTypes.object.isRequired,
-    deckName: PropTypes.string.isRequired
+    decks: PropTypes.array.isRequired,
+    deckName: PropTypes.string.isRequired,
   };
 
 const mapStateToProps = state => ({

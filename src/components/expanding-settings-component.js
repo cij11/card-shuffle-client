@@ -16,8 +16,8 @@ class ExpandingSettingsComponent extends Component {
                     <button onClick={this.handleChange.bind(this)}>Player Settings</button>
                     <SelectPlayerContainer playerNumber={0}/>
                     <SelectPlayerContainer playerNumber={1}/>
-                     <EnterSeedContainer />
-                     <button onClick={this.handleChange.bind(this)}>Collapse</button>
+                    <EnterSeedContainer />
+                    <button onClick={this.handleChange.bind(this)}>Collapse</button>
                 </div>
             );
         } else {

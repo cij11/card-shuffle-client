@@ -54,7 +54,7 @@ class App extends Component {
 }
 
 App.propTypes = {
-  seed: PropTypes.number.isRequired,
+  seed: PropTypes.string.isRequired,
 };
 
 const mapStateToProps = state => ({
