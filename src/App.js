@@ -8,6 +8,7 @@ import CardContainer from './containers/card-container';
 import DrawCardContainer from './containers/draw-card-container';
 import SelectPlayerContainer from './containers/select-player-container';
 import EnterSeedContainer from './containers/enter-seed-container';
+import ExpandingTextComponent from './components/expanding-text-component';
 
 class App extends Component {
   render() {
@@ -15,9 +16,16 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1 className="App-title">Welcome to Card Shuffle</h1>
-          <SelectPlayerContainer playerNumber={0}/>
-          <SelectPlayerContainer playerNumber={1}/>
-          <EnterSeedContainer />
+            <div className="wrapper">
+              <div className="drawGroup">
+                <ExpandingTextComponent />
+              </div>
+              <div className="drawGroup">
+                <SelectPlayerContainer playerNumber={0}/>
+                <SelectPlayerContainer playerNumber={1}/>
+                <EnterSeedContainer />
+              </div>
+            </div>
         </header>
 
         <div className="wrapper">
