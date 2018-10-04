@@ -9,6 +9,8 @@ class SelectPlayerContainer extends Component {
     render() {
         return(
             <SelectPlayerComponent selectPlayer={this.props.selectPlayer}
+                seed={this.props.seed}
+                playerNumber={this.props.playerNumber}
                 text={this.props.playerNumber + 1}
             />
         );
@@ -21,9 +23,9 @@ const mapStateToProps = (state) => {
     }
 }
 
-const mapDispatchToProps = (dispatch, props) => (
+const mapDispatchToProps = (dispatch) => (
     {
-        selectPlayer: () => {dispatch(selectPlayer(props.seed, 6, props.playerNumber))}
+        selectPlayer: (seed, numPlayers, playerNumber) => {dispatch(selectPlayer(seed, numPlayers, playerNumber))}
     }
 );
 
