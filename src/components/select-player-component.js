@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 class SelectPlayerComponent extends Component {
     render() {
         return (
-            <div>
+            <span>
                 <button onClick={this.props.selectPlayer}>
                     {this.props.text}
                 </button>
-            </div>
+            </span>
         );
     }
 }

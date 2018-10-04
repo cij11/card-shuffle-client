@@ -8,8 +8,14 @@ import EnterSeedComponent from '../components/enter-seed-component';
 class EnterSeedContainer extends Component {
     render() {
         return (
-            <EnterSeedComponent storeSeed={this.props.storeSeed}/>
+            <EnterSeedComponent seed={this.props.seed} storeSeed={this.props.storeSeed}/>
         );
+    }
+}
+
+const mapStateToProps = (state) => {
+    return {
+        seed: state.seed,
     }
 }
 
@@ -19,4 +25,4 @@ const mapDispatchToProps = (dispatch) => (
     }
 );
 
-export default connect(null, mapDispatchToProps)(EnterSeedContainer);
+export default connect(mapStateToProps, mapDispatchToProps)(EnterSeedContainer);

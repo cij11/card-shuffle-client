@@ -2,8 +2,11 @@ import { buildCard, buildDeck } from '../deck-building.js';
 
 const roomCards = [];
 
-roomCards.push(buildCard('card-1', 'text-1'));
-roomCards.push(buildCard('card-2', 'text-2'));
-roomCards.push(buildCard('card-3', 'text-3'));
+let i = 0,
+maxCards = 60;
+
+for (i = 0; i < maxCards; i++) {
+    roomCards.push(buildCard('roomCards-card-' + i, 'roomCards-text-' + i));
+}
 
 export default buildDeck('rooms', roomCards);

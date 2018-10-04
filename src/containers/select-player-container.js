@@ -9,17 +9,22 @@ class SelectPlayerContainer extends Component {
     render() {
         return(
             <SelectPlayerComponent selectPlayer={this.props.selectPlayer}
-                playerNumber={this.props.playerNumber}
-                text={this.props.playerNumber}
+                text={this.props.playerNumber + 1}
             />
         );
     }
 }
 
+const mapStateToProps = (state) => {
+    return {
+        seed: state.seed,
+    }
+}
+
 const mapDispatchToProps = (dispatch, props) => (
     {
-        selectPlayer: () => {dispatch(selectPlayer("test", 2, props.playerNumber))}
+        selectPlayer: () => {dispatch(selectPlayer(props.seed, 6, props.playerNumber))}
     }
 );
 
-export default connect(null, mapDispatchToProps)(SelectPlayerContainer);
+export default connect(mapStateToProps, mapDispatchToProps)(SelectPlayerContainer);

@@ -2,8 +2,11 @@ import { buildCard, buildDeck } from '../deck-building.js';
 
 const itemCards = [];
 
-itemCards.push(buildCard('Shotgun', ''));
-itemCards.push(buildCard('Umbrella', ''));
-itemCards.push(buildCard('The perfect item*', "Character's choice"));
+let i = 0,
+maxCards = 60;
+
+for (i = 0; i < maxCards; i++) {
+    itemCards.push(buildCard('itemCards-card-' + i, 'itemCards-text-' + i));
+}
 
 export default buildDeck('items', itemCards);
