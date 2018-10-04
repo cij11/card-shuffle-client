@@ -29,7 +29,7 @@ class App extends Component {
         </header>
 
         <div className="wrapper">
-          <div className="drawGroup">
+          <div className="drawGroup cardStyling">
             <div>
               <DrawCardContainer drawDecks={["rooms", "items"]} text={"Draw New Room"}/>
             </div>
@@ -41,7 +41,7 @@ class App extends Component {
             </div>
           </div>
 
-          <div className="drawGroup">
+          <div className="drawGroup cardStyling">
             <div>
               <DrawCardContainer drawDecks={["characters"]} text={"Draw New Character"}/>
             </div>
