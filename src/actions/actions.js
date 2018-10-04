@@ -16,9 +16,11 @@ export const drawCard = deckNames => (
     }
 )
 
-export const selectPlayer = playerNumber => (
+export const selectPlayer = (seed, numPlayers, playerNumber) => (
     {
         type: SELECT_PLAYER,
+        seed,
+        numPlayers,
         playerNumber,
     }
 )

@@ -18,7 +18,7 @@ class SelectPlayerContainer extends Component {
 
 const mapDispatchToProps = (dispatch, props) => (
     {
-        selectPlayer: () => {dispatch(selectPlayer(props.playerNumber))}
+        selectPlayer: () => {dispatch(selectPlayer("test", 2, props.playerNumber))}
     }
 );
 
