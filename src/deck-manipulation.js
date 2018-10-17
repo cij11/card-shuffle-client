@@ -37,7 +37,11 @@ const getCard = (deck, cardNumber, seed) => {
 }
 
 const shuffleDeck = (deck, seed) => {
-    deck.cards = shuffleCards(deck.cards, seed);
+    // Incorporate the deckName into the seed, so that decks with different names aren't shuffled in the same
+    // order as each other (This prevents, for example, card N in deck A always being in the same position as card
+    // M in deck B, although the exact position changes with different shuffles.)
+    let combinedSeed = deck.deckName + seed;
+    deck.cards = shuffleCards(deck.cards, combinedSeed);
   //  deck.cards = [{data: {title: 'bah', text: 'humbug'}}];
     return deck;
 }
