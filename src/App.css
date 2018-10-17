@@ -1,11 +1,8 @@
-.App {
-  text-align: center;
-}
-
 .App-header {
   background-color: rgb(30, 37, 58);
  /* padding: 10px;*/
   color: white;
+  text-align: center;
 }
 
 .App-title {

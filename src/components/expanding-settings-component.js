@@ -10,12 +10,12 @@ class ExpandingSettingsComponent extends Component {
     }
 
     render() {
-        let height = this.state.isExpanded ? 100 : 0;
-
         const divStyle = {
-            'max-height': height + 'px',
+            'max-height': this.state.isExpanded ? '12em' : '0em',
             'opacity' : this.state.isExpanded? '1' : '0',
-            'transition': 'max-height 0.2s ease-out, opacity 0.2s ease-out',
+            'transition': 'max-height  0.3s ease-out, opacity 0.2s ease-out',
+            'text-align': 'left',
+            'overflow': 'hidden',
           };
      //   if (this.state.isExpanded) {
             return(
@@ -23,7 +23,9 @@ class ExpandingSettingsComponent extends Component {
                     <button onClick={this.handleChange.bind(this)}>Player Settings</button>
                     <div style={divStyle}>
                         <EnterSeedContainer />
-                
+                        <div>
+                            Select player number. Each player must select a different number
+                        </div>
                         <div>
                            <SelectPlayerContainer playerNumber={0}/>
                            <SelectPlayerContainer playerNumber={1}/>

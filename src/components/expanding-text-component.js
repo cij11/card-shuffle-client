@@ -13,6 +13,7 @@ class ExpandingTextComponent extends Component {
             'max-height': height + 'px',
             'opacity' : this.state.isExpanded? '1' : '0',
             'transition': 'max-height 0.2s ease-out, opacity 0.2s ease-out',
+            'text-align': 'left'
           };
 
         return(
