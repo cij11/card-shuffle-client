@@ -28,10 +28,10 @@ class App extends Component {
         <div className="wrapper">
           <div className="drawGroup cardStyling">
             <div>
-              <DrawCardContainer drawDecks={["rooms", "items"]} text={"Draw New Room"}/>
+              <DrawCardContainer drawDecks={["scenarios", "items"]} text={"Draw New Scenario"}/>
             </div>
             <div>
-              <CardContainer deckName={"rooms"}/>
+              <CardContainer deckName={"scenarios"}/>
             </div>
             <div>
               <CardContainer deckName={"items"}/>

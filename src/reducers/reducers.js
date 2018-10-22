@@ -1,7 +1,7 @@
 import { STORE_SEED, DRAW_CARD, SELECT_PLAYER } from '../actions/actions';
 import { combineReducers } from 'redux';
 
-import { roomDeckBuilder, characterDeckBuilder, standardDeckBuilder, itemDeckBuilder } from '../deck-library';
+import { scenarioDeckBuilder, characterDeckBuilder, standardDeckBuilder, itemDeckBuilder } from '../deck-library';
 import { shuffleDeck, removeTopCard, splitDeck } from '../deck-manipulation';
 
 const seed = (seed = 'abcd', action) => {
@@ -67,7 +67,7 @@ const initialDecksState = () => {
     var initialDecks = [];
 
     initialDecks.push(characterDeckBuilder());
-    initialDecks.push(roomDeckBuilder());
+    initialDecks.push(scenarioDeckBuilder());
     initialDecks.push(standardDeckBuilder());
     initialDecks.push(itemDeckBuilder());
 
