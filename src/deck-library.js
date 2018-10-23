@@ -2,7 +2,7 @@
 import characterDeck from './deck-content/character-deck.js';
 import scenarioDeck from './deck-content/scenario-deck.js';
 import standardDeck from './deck-content/standard-deck.js';
-import itemDeck from './deck-content/item-deck.js';
+import scenarioMutatorDeck from './deck-content/scenario-mutator-deck.js';
 
 const _ = require('lodash');
 
@@ -21,8 +21,8 @@ const standardDeckBuilder = () => {
     return _.cloneDeep(standardDeck);
 }
 
-const itemDeckBuilder = () => {
-    return _.cloneDeep(itemDeck);
+const scenarioMutatorDeckBuilder = () => {
+    return _.cloneDeep(scenarioMutatorDeck);
 }
 
-export { characterDeckBuilder, scenarioDeckBuilder, standardDeckBuilder, itemDeckBuilder };
+export { characterDeckBuilder, scenarioDeckBuilder, standardDeckBuilder, scenarioMutatorDeckBuilder };
