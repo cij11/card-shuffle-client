@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { RulesComponent } from './rules-component';
 
 class ExpandingTextComponent extends Component {
     constructor(props) {
@@ -7,7 +8,7 @@ class ExpandingTextComponent extends Component {
     }
 
     render() {
-        let height = this.state.isExpanded ? 100 : 0;
+        let height = this.state.isExpanded ? 2000 : 0;
 
         const divStyle = {
             'max-height': height + 'px',
@@ -23,9 +24,7 @@ class ExpandingTextComponent extends Component {
                 </button>
                 <div style={divStyle}>
                 <div>
-                    The rules.
-                    Here are some rules.
-                    You would be well advised to read them.
+                    <RulesComponent></RulesComponent>
                 </div>
                 </div>
             </div>
