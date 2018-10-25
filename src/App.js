@@ -8,6 +8,7 @@ import CardContainer from './containers/card-container';
 import DrawCardContainer from './containers/draw-card-container';
 import ExpandingTextComponent from './components/expanding-text-component';
 import ExpandingSettingsComponent from './components/expanding-settings-component';
+import ConflictResolverComponent from './components/conflict-resolver-component';
 
 class App extends Component {
   render() {
@@ -35,6 +36,9 @@ class App extends Component {
             </div>
             <div>
               <CardContainer deckName={"scenarioMutators"}/>
+            </div>
+            <div>
+              <ConflictResolverComponent />
             </div>
           </div>
 
