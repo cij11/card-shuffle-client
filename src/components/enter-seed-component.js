@@ -6,7 +6,7 @@ class EnterSeedComponent extends Component {
         return (
             <div>
                 <div>
-                    Enter Game Password - All players must choose the same password:
+                    Enter a seed word. All players must enter the same seed word to split the decks evenly:
                 </div>
                 <div>
                     <input type="text"

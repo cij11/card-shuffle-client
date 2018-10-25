@@ -3,8 +3,9 @@ import { combineReducers } from 'redux';
 
 import { scenarioDeckBuilder, characterDeckBuilder, standardDeckBuilder, scenarioMutatorDeckBuilder } from '../deck-library';
 import { shuffleDeck, removeTopCard, splitDeck } from '../deck-manipulation';
+import { fourLetterDateSeed } from '../four-letter-date-seed';
 
-const seed = (seed = 'abcd', action) => {
+const seed = (seed = fourLetterDateSeed(), action) => {
     switch (action.type) {
         case STORE_SEED:
             return action.seed;
@@ -88,5 +89,7 @@ const reducers = combineReducers(
         decks,
     }
 )
+
+
 
 export default reducers;
