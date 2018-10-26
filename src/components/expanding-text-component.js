@@ -8,23 +8,20 @@ class ExpandingTextComponent extends Component {
     }
 
     render() {
-        let height = this.state.isExpanded ? 2000 : 0;
-
         const divStyle = {
-            'max-height': height + 'px',
             'opacity' : this.state.isExpanded? '1' : '0',
-            'transition': 'max-height 0.2s ease-out, opacity 0.2s ease-out',
+            'transition': 'opacity 0.2s ease-out',
             'text-align': 'left'
           };
 
         return(
             <div>
-                    <button onClick={this.handleChange.bind(this)}>
+                <button onClick={this.handleChange.bind(this)}>
                     Rules
                 </button>
                 <div style={divStyle}>
                 <div>
-                    <RulesComponent></RulesComponent>
+                    <RulesComponent isExpanded = {this.state.isExpanded}/>
                 </div>
                 </div>
             </div>
