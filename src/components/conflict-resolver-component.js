@@ -39,28 +39,20 @@ class ConflictResolverComponent extends Component {
     }
 
     scoreDescription(percentage) {
-        if (percentage < 20) {
-            return "Dismal Failure";
-        }
+        let messages = [
+            [20, 'Dismal Failure'],
+            [40, 'Convincing Failure'],
+            [40, 'Convincing Failure'],
+            [50, 'Narrow Failure. Try again'],
+            [60, 'Bare Success. Try harder'],
+            [80, 'Convincing Success'],
+            [98, 'Overwhelming success'],
+        ];
 
-        if (percentage < 40) {
-            return "Convincing Failure"
-        }
-
-        if (percentage < 50) {
-            return "Narrow Failure. Try again"
-        }
-
-        if (percentage <60) {
-            return "Bare Success"
-        }
-
-        if (percentage < 80) {
-            return "Convincing Success"
-        }
-
-        if (percentage < 98) {
-            return "Overwhelming success"
+        for(let pair of messages) {
+            if (percentage <= pair[0]) {
+                return pair[1];
+            }
         }
 
         return "Staggering Success. "
