@@ -1,6 +1,6 @@
-const scenario000 = {
+const scenario002 = {
     data: {
-        title: "TestTitle",
+        title: "TestTitle2",
         paragraphs: [
             "Under",
             "Construction",
@@ -8,4 +8,4 @@ const scenario000 = {
     }
 }
 
-export default scenario000;
+export default scenario002;

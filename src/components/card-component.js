@@ -34,9 +34,9 @@ class CardComponent extends Component {
 
         return (
             <div className="cardComponent">
-                <div className="cardSection">
+                <h3 className="cardSection">
                     Title - {this.props.data.title}
-                </div>
+                </h3>
                 <div className="cardSection">
                     { text && 
                         (
