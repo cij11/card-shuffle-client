@@ -44,6 +44,9 @@ class CardComponent extends Component {
                         )
                     }
 
+                    {paragraphs} 
+
+
                     { rules.length > 0 && 
                         (
                             <div>
