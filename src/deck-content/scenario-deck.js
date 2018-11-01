@@ -7,15 +7,10 @@ import scenario003 from './scenario-cards/scenario003';
 
 const scenarioCards = [];
 
-let i = 0,
-maxCards = 60;
+scenarioCards.push(scenario000);
+scenarioCards.push(scenario001);
+scenarioCards.push(scenario002);
+scenarioCards.push(scenario003);
 
-for (i = 0; i < maxCards; i++) {
-    //scenarioCards.push(buildCard('scenarioCards-card-' + i, 'scenarioCards-text-' + i));
-    scenarioCards.push(scenario000);
-    scenarioCards.push(scenario001);
-    scenarioCards.push(scenario002);
-    scenarioCards.push(scenario003);
-}
 
 export default buildDeck('scenarios', scenarioCards);
