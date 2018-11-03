@@ -403,15 +403,143 @@ character = {
 };
 characterCards.push(character);
 
+character = {
+    data: {
+        title: "AI",
+        paragraphs: [
+            "You are an artificial intelligence, housed in a device carried or worn by one of the other group members.",
+        ],
+        rules: [
+            "You are super intelligent, knowing everything on the internet and able to decipher any code or mathematical equation.",
+            "You can hack into and take control of any electronic device that you can communicate with wirelessly or be plugged into.  ",
+            "In each scenario, you further your plan to take over the world.",
+        ],
+        items: [
+            "You are a small device with speech, wireless, and wired input/output.",
+        ]
+    }
+};
+characterCards.push(character);
 
-characterCards.push(character000);
-characterCards.push(character001);
-characterCards.push(character002);
-characterCards.push(character003);
-characterCards.push(character003);
-characterCards.push(character003);
-characterCards.push(character003);
-characterCards.push(character003);
+character = {
+    data: {
+        title: "Three children or small people in a trenchcoat",
+        paragraphs: [
+            "You started off doing this for a joke, but... you're in too deep now.p",
+        ],
+        rules: [
+            "You are three people, sitting on each other's shoulders, in a long trenchcoat.",
+            "You can seperate, provided no one sees parts of you sneak off or come apart",
+            "You are incredibly convincing.",  
+            "No one must ever know you are not a real proper adult person.",      ],
+        items: [
+            "Trenchcoat",
+            "Fake beard",
+            "Chewing gum/Cigarettes",
+            "Slingshot/Pepper spray",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Jinxed/Cursed",
+        paragraphs: [
+            "Maybe you've been cursed by a witch. Or maybe you shouldn't have taken that summer job sitting under a lader breaking mirrors with a black cat. Either way, you are well and truely jinxed, with things going wrong around you.",
+        ],
+        rules: [
+            "People around you will suffer spontaneous, terrible misfortune. You have an inkling what this might be, and can incorporate your suspicions in your plans. ",
+            "You will suffer some terrible misfortune as part of each your plans. The DM or a group member will suggest this while you are making your plan, and you must accomodate it.",
+        ],
+        items: [
+            "Broken mirror",
+            "Black cat",
+            "Monkey paw",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Soldier",
+        paragraphs: [
+            "Unlike these rookies, you are a professional at resolving conflicts.",
+        ],
+        rules: [
+            "You are a trained combatant",
+            "You are in excellent physical shape",
+            "You can call in artillery strikes",
+            "You are bound by the rules of the Geneva convention ",
+        ],
+        items: [
+            "Firearm",
+            "Grenades",
+            "Combat Knife",
+            "Night vision goggles",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Spy",
+        paragraphs: [
+            "Debaunair and dangerous, you are a master of disguise, but licensed to kill.  ",
+        ],
+        rules: [
+            "You are excellent at disguises and impersonation",
+            "You have a number of gadgets, disguised as innocuous items",
+            "You must make a pun before killing any adversary",
+        ],
+        items: [
+            "Chewing Gum C4 + ballpoint pen detonator",
+            "Pistol",
+            "Watch garotte",
+            "Tuxedo or Ballgown",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "God of (Item)",
+        paragraphs: [
+            "You are the god of something, suggested by a Group member.",
+        ],
+        rules: [
+            "You can summon the item from thin air.",
+            "You can banish existing examples of the item.",
+            "You can change any one property of an example of the item, such as color, size, or material.",
+        ],
+        items: [
+            "An Item",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Dragon",
+        paragraphs: [
+            "Scaley, flying, fire breathing. A dragon.",
+        ],
+        rules: [
+            "You have armoured scales.",
+            "You can fly.",
+            "You can breath fire.",
+            "You must aquire any and all gold, jewelery, or anything else that could be termed 'treasure' from any scenario.",
+        ],
+        items: [
+            "One treasure horde, enchanted to follow you from scenario to scenario.",
+        ]
+    }
+};
+characterCards.push(character);
 
 
 export default buildDeck('characters', characterCards);
