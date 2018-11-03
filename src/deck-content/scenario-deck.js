@@ -1,18 +1,14 @@
-import { buildCard, buildDeck } from '../deck-building.js';
-
-import scenario000 from './scenario-cards/scenario000';
-import scenario001 from './scenario-cards/scenario001';
-import scenario002 from './scenario-cards/scenario002';
-import scenario003 from './scenario-cards/scenario003';
+import { buildDeck } from '../deck-building.js';
 
 const scenarioCards = [];
 let scenario;
 
 scenario = {
     data: {
-        title: "TestTitle",
-        type: "Combat",
+        title: "partiallyBuiltBehindTheScenesRoom",
+        type: "Navigation",
         paragraphs: [
+            "Warning",
             "Under",
             "Construction",
         ],
@@ -611,6 +607,307 @@ scenario = {
 };
 scenarioCards.push(scenario);
 
+scenario = {
+    data: {
+        title: "Hostage Situation",
+        type: "Social",
+        paragraphs: [
+            "One of your group members (DM choice or Random) has been taken hostage by bad men. They want something precious of yours (DM's choice).",
+            "Resolve this situation to win the scenario.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "High Speed Chase",
+        type: "Navigation",
+        paragraphs: [
+            "You're behind the wheel of a vehicle just big enough to fit your party. Flashing red and blue lights fill your rear view mirror, as you dodge and weave between cars in the busy city streets.",
+            "Escape!",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Carnivorous jungle",
+        type: "Combat",
+        paragraphs: [
+            "The jungle closes in all around you. Dense foliage looms high into the sky, blotting out the sun. Hot, humid, oppressive... and dangerous. Venus fly traps the size of venous lick their lips. Vines snake and writhe on the ground. Bell traps the size of a man wait to trap the unwary. And they've all grown huge by gorging on mosquitos the size of pelicans and millipedes as long as your leg.",
+            "Cross the jungle to leave this horrible place behind. ",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Snow place like home",
+        type: "Task",
+        paragraphs: [
+            "Twinkling snow crunches beneath your feet as you walk towards a rustic little cottage. When you get there, the door wont open. Because the cottage is fake, a model baked out of clay. And this snow is... glitter?",
+            "You are trapped in a snow globe. You can see the world outside, and other objects on the shelf you're sitting on. How can you escape?",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Friction-less room",
+        type: "Navigation",
+        paragraphs: [
+            "As soon as you enter this room, you fall flat on your rump and start to skid. Friction, it seems, has given up on this room. Anything you hold slides from your grasp, and your pants are making a slick bid for freedom.",
+            "Get to the door, and open it. Should be simple, right?",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Sports Ball",
+        type: "Task",
+        paragraphs: [
+            "A whistle blows. It's game time. Around you, a densely packed stadium cheers exuberantly. You've been dropped in the middle of the (DM's choice) grand final and play has just commenced. The umpire watches like a hawk.",
+            "By means fair or foul, you must win this match.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Sleeping Dragon",
+        type: "Navigation",
+        paragraphs: [
+            "A heap of gold glimmers and twinkles in the center of this cave. Atop, a slumbering dragon. Steal a single piece of treasure to defeat this scenario.",
+            "Oh. And also, the cave is littered with mouse traps, whoopee cushions, potato crisps, and a single inexplicably squeaky floorboard.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Literal Pun Room",
+        type: "Task",
+        paragraphs: [
+            "This room is an infinite field of white. Until someone says 'I can't see anything!'. At which point, a sea appears, the waves lapping at your feet. 'Okay... what's going on here?' A fluffy hare bumps into your foot, long ears sticking up, head tilted quizzically to one side. How would it know? ",
+            "You must leave this place. Crunchy autumn leaves form piles all around you.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Trash Compactor Room",
+        type: "Task",
+        paragraphs: [
+            "You are dumped into a pile of refuse, rancid water rising to your hips. Just when things couldn't get any worse... they do. The walls start closing in, the trash compactor pressing around you.",
+            "Escape or Survive.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Zeppelin Pirates",
+        type: "Combat",
+        paragraphs: [
+            "Whoever said it was a bad idea to fill a Zeppelin with hydrogen had no idea what they were talking about. For air pirates, hydrogen is the only choice. A fat and slow helium zeppelin lumbers ahead of you. ",
+            "Pillage and plunder to win this scenario.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Public Speaking",
+        type: "Social",
+        paragraphs: [
+            "You are standing in front of a crowd of thousands, cameras pointing at you from all directions. You have no idea what the occasion is, what they are expecting, or what to do. The DM will pick an event, but is not obligated to tell this event to you.",
+            "You must deliver a speech which receives a standing ovation. ",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "TestTitle",
+        type: "Combat",
+        paragraphs: [
+            "Under",
+            "Construction",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Planetarium",
+        type: "Navigation",
+        paragraphs: [
+            "In the center of this circular room sits a blazing Sun. A complicated arrangement of clockwork planet and moons orbit it, traveling along circular tracks. The Sun is painful to look at even at a distance. Everything inside the room is scorched to cinders. The only safe places are in the shadows of the planets and moons, but those are in constant, rapid motion. ",
+            "Make it to the other side of the room.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Waterfall",
+        type: "Navigation",
+        paragraphs: [
+            "You're captain of a ship. Not the best captain. Nor the best ship. But the captain, none-the-less. Another captain would have turned the ship around before getting within the pull of the waterfall. A better ship would have life rafts, not that they would help in this exact situation. As it stands, crew, passengers, and sailors are looking at you for guidance, as the ship accelerates towards the precipice.",
+            "Orders, captain?",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Laser grid",
+        type: "Navigation",
+        paragraphs: [
+            "This smoke filled room is criss-crossed with twinkling red laser lights. Maybe they set off an alarm. Maybe they set off an explosive. Or maybe they just cleanly bisect anything who's path crosses them, neatly cauterizing the stump.",
+            "Best not to touch anything on your way to the exit.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Stay Puffed",
+        type: "Combat",
+        paragraphs: [
+            "A voice booms out, making you jump. 'You will choose the form your annihilation will take.' Try to keep your minds blank, people, because the next noun any of you mentions will be brought to life as a 60 foot monster, crashing through the town of this scenario. ",
+            "Defeat the menace to save the town and win the scenario.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "On Show",
+        type: "Social",
+        paragraphs: [
+            "This room looks like a gymnasium. Parallel bars, balance beams, rings and mats litter the floor, and a stage stands at one end. There's nothing technically stopping you from just crossing the room and leaving through the opposite door, but there's something oddly sinister about the three plainly dressed middle aged judges sitting behind a desk, holding score cards. ",
+            "Better get at least a 6.0 for your performance, or you're out.  ",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Under Siege",
+        type: "Combat",
+        paragraphs: [
+            "You find yourself in a medieval castle. The gate shakes as invaders try to batter it in, while ladders hit the walls and trebuchets rain down rocks. ",
+            "Survive the siege to survive the scenario.",
+            "(Paired card! If the plan 'Besieging' has been drawn, that will be the plan you defend against.)",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Besieging",
+        type: "Combat",
+        paragraphs: [
+            "You and your army assail the walls of a medieval castle. You've got catapults, battering rams, ladders, siege towers, and a thousand men at arms, but the defends have arrows, thick walls, and pots of scalding oil. ",
+            "Sack the castle to win this scenario.",
+            "(Paired card! If the plan 'Under siege' has been drawn, that you be the plan you fight against.)",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Virtual Reality",
+        type: "Task",
+        paragraphs: [
+            "Explosions blossom around you, space ships flying overhead, and hordes of alien monsters surround you. Everything has a slightly unreal, low polygon aesthetic, though. Walking a few meters in one direction, you bump into an invisible wall. ",
+            "What's going on? How can you escape this less that virtuous reality?",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Bridge Keeper",
+        type: "Social",
+        paragraphs: [
+            "A wizened old man stands in the middle of this bridge, interrogating any who pass. ",
+            "Fail to answer his question correctly (DM's choice) and you will explode violently, leaving only a pair of smoking boots.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Construction Demolition",
+        type: "Combat",
+        paragraphs: [
+            "Everyone at this construction site has gone stark raving made. A half built skyscraper looms overhead, while below, diggers, bulldozers, and even cranes fight to the death. You find yourself behind the wheel of one such vehicle. ",
+            "Last person standing wins.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Game of skill",
+        type: "Task",
+        paragraphs: [
+            "A moat separates you from the other side of this room and the door, seemingly infinitely deep and a good 2m wide. On your side of the moat are a number of rubber rings, balls, and water guns. On the other side, a shifty carnie mans a collection of games of skill.",
+            "He'll drop the bridge across the moat... after you pay a fee and win a game, of course. ",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "The Vents ",
+        type: "Navigation",
+        paragraphs: [
+            "The square, metal walls of the vent close around you claustrophobically. The maze of vents forks and loops around on themselves. Guards chatter inaneley in the complex of offices and labs beneath you, but they're the least of your concern: You think you're not alone up here.",
+            "You just need to get to get out through the vent's main air intake... ",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "The Playpen",
+        type: "Navigation",
+        paragraphs: [
+            "The world seems very big, or maybe you're just very small. You and all your team are toddler versions of themselves, and their equipment is all toy versions of it. You can hear warbling, impossibly deep and incomprehensible voices of looming, out of sight giants.",
+            "Escape across the street to win the scenario.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
 
 
 export default buildDeck('scenarios', scenarioCards);
