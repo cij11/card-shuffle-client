@@ -373,5 +373,244 @@ scenario = {
 };
 scenarioCards.push(scenario);
 
+scenario = {
+    data: {
+        title: "Wired to Blow",
+        type: "Task",
+        paragraphs: [
+            "The door to this room is wired to a complicated device. Cables snake over it, cylinders jut from it, and cylinders emblazoned with the symbols for bio-hazard, radiation hazard, and poison protrude from it.",
+            "Flipping open a panel, you can see a tangle of different colored wires. Cut the right one, and the door will open. Cut the wrong one...",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Creepy Ball",
+        type: "Social",
+        paragraphs: [
+            "This lavish ballroom is filled with gents in tuxedos, and women in elegant gowns. The whole affair would seem festive... if any of the dancers said a word. Or had faces. They move in an intricate dance, flowing across the dance floor. Escape lies on the far side of the ballroom. While they don't seem violent now, you do not, not, NOT want to get in their way, or make any sound...",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Submarine",
+        type: "Social",
+        paragraphs: [
+            "The metal of the submarine surrounds you, oppressive and claustrophobic. You are being hunted by a ship on the surface above, and any sound could give away your position. If caught, the ship above will drop depth charges that could burst your skull with concussive force. ",
+            "In hindsight, this probably wasn't a good time to challenge another crewmate to a rock off. Win. Survive. Rock.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "TestTitle",
+        type: "Combat",
+        paragraphs: [
+            "Under",
+            "Construction",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Upside down house",
+        type: "Navigation",
+        paragraphs: [
+            "Not just this house, but this entire world seems to be built upside down. Either that, or gravity has reversed just for you and your party. You have to get from the attic, to the ground floor, to the car at the end of the driveway. Careful, though. The sky yawns above you, a very, very long way up...",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Flammable room",
+        type: "Navigation",
+        paragraphs: [
+            "There's an acrid, sulfurous aroma in the air to this room. Your feet splash through puddles of oil. The furniture appears to be constructed from sticks of dynamite, and... yes, you can definitely smell a gas leak. A sweet old Nan in a rocking chair fumbles about for a box of matches, pipe already clasped in her lips.  ",
+            "The door to exit this scenario stands open at the other end of the room.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Clock Tower",
+        type: "Navigation",
+        paragraphs: [
+            "The inside of this clock tower is stuffed with grinding gears, swinging pendulums, and tightly coiled springs. With no staircase or ladder, it seems impossible to ascend without being mangled by the clockworks. But, that's exactly what you've got to go.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Haunted House",
+        type: "Combat",
+        paragraphs: [
+            "The moon peaks through the dense clouds, a flash of lightning briefly illuminating this decrepit, looming mansion. Organ music plays in the background. Rumor has it that at least a werewolf, a vampire, a mummy, and Frankenstein's monster have taken up residence. But that can't be true.",
+            "Survive one night to win this scenario.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Squirrel Army",
+        type: "Combat",
+        paragraphs: [
+            "You've really done it this time. You angered the squirrels. They can climb. They can bite. They store nuts for the winter, and their numbers are legion. Every single squirrel on this planet wants you dead. Good luck!  ",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Roller Coaster",
+        type: "Navigation",
+        paragraphs: [
+            "A bar comes down over your shoulders, locking you into your seat. Ahead of you, a normal roller coaster... except for the spinning blades, flamethrowers, pendulums, and the unfortunate fact that one end of the tracks points out over a cliff.",
+            "Survive the ride.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Cabin in the Woods",
+        type: "Combat",
+        paragraphs: [
+            "You should not have read the arcane text written on that dusty tomb. The woods around you seem to come alive. Some... THING is trying to get in. Or maybe it's hear already. ",
+            "Survive the night to escape this scenario.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Zoo",
+        type: "Combat",
+        paragraphs: [
+            "Lions and Tigers and Bears? Oh my! Without warning, every cage, gate, fence, and floodgate in this zoo falls open, releasing the animals inside.",
+            "Try to escape, without becoming the meal of some hungry, vengeful predator. ",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Field with Sheep",
+        type: "Combat",
+        paragraphs: [
+            "You stand in the middle of a peaceful field, rolling hills tumbling in all directions. Sheep and cows stupidly chew in the background. Although... now that you think about it, they do seem to have surrounded you. In their hundreds. And do their eyes seem a little... red, to you? ",
+            "Survive your encounter with vengeful livestock to escape this scenario.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Runaway train",
+        type: "Combat",
+        paragraphs: [
+            "This train is barreling straight off a partially built bridge. You're in the caboose. Packed in every carriage, cabin, and cargo container are both passengers, and goons who have been given your description.",
+            "Save the train to win this scenario.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Court Trial",
+        type: "Social",
+        paragraphs: [
+            "You find yourself in a court room, hands clasped in manacles, burly guards on either side. The judge presides at one end of the court, while the prosecuting lawyer makes his case. You've been framed for a crime (DM's choice of crime and manner of framing). ",
+            "All the evidence is against you. How can you prove your innocence?",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Pendulum Bridge",
+        type: "Combat",
+        paragraphs: [
+            "A narrow bridge extends over a deep ravine. Enormous pendulums swing back and forth over the bridge, ready to knock you off if they don't outright slice you in half. At the far end, a serpentine warrior stands, daring you to approach. What dark soul devised this nightmarish trap? ",
+            "Cross the bridge to win the scenario.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Gladiatorial Arena",
+        type: "Combat",
+        paragraphs: [
+            "The Colosseum surrounds you, cheering crowds braying for blood, lorded over by a cruel emperor. Opposing you, an intimidating array of opponents (DM's choice). ",
+            "Fight for your life, but make it flashy, or the emperor will simply send more opponents until your luck runs out.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Hell",
+        type: "Social",
+        paragraphs: [
+            "The screams of the damned surround you. A red skinned chap with a pitchfork looms over all, and when you get a hold of whomsoever playing that fiddle music you'll kill them. Again.",
+            "You'll have to make a deal with the devil to get out of here, and he plays for keeps.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Divider",
+        type: "Combat",
+        paragraphs: [
+            "This room has a single door leading out, guarded by a normal looking man who looks at you smugly.",
+            "'I'm going to stop you getting out of this room. If I die, two will take my place'.",
+            "To prove his point, he falls on his sword. In a puff of smoke, two stand where one there was one, each wielding a rapier.",
+            "Escape this room to win the scenario.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Strobe room",
+        type: "Combat",
+        paragraphs: [
+            "People dance all around you, as disco music thumps up through the ground. The disco is lit with strobe lights.  One by one, party goers drop dead, killed by some mysterious assassin. One of them must be responsible, striking between the flashes of the lights.",
+            "Can you find and stop them before you yourself fall victim to the blade?",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+
 
 export default buildDeck('scenarios', scenarioCards);
