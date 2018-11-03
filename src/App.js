@@ -34,9 +34,9 @@ class App extends Component {
             <div>
               <CardContainer deckName={"scenarios"}/>
             </div>
-            <div>
+            {/* <div>
               <CardContainer deckName={"scenarioMutators"}/>
-            </div>
+            </div> */}
             <div>
               <ConflictResolverComponent />
             </div>
