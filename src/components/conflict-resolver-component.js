@@ -59,28 +59,30 @@ class ConflictResolverComponent extends Component {
     }
 
     render() {
-        return <div>
+        return <div className="conflictResolver">
+            <h4 className="conflictResolverHeading">Conflict Resolution</h4>
             <div>
-                <input type = "checkbox" checked = {this.state.itemChecked.plausible} onChange = { (e) => this.checkItem(e, 'plausible') }></input>
+                <input type="checkbox" className="conflictResolverCheckbox" checked={this.state.itemChecked.plausible} onChange={ (e) => this.checkItem(e, 'plausible') }></input>
                 Plausible
             </div>
             <div>
-                <input type = "checkbox" checked = {this.state.itemChecked.comical} onChange = { (e) => this.checkItem(e, 'comical') }></input>
+                <input type="checkbox" className="conflictResolverCheckbox" checked={this.state.itemChecked.comical} onChange={ (e) => this.checkItem(e, 'comical') }></input>
                 Comical
             </div>
             <div>
-                <input type = "checkbox" checked = {this.state.itemChecked.fitting} onChange = { (e) => this.checkItem(e, 'fitting') }></input>
+                <input type="checkbox" className="conflictResolverCheckbox" checked={this.state.itemChecked.fitting} onChange={ (e) => this.checkItem(e, 'fitting') }></input>
                 Fitting
             </div>
             
             <div>
-                <input type = "button" label = "Resolve Conflict" onClick = {(e) => { this.resolveConflict()}}></input>
-                Resolve Conflict
+                <button label = "Resolve Conflict" className="turquoise-flat-button" onClick = {(e) => { this.resolveConflict()} }>
+                    Resolve Conflict
+                </button>
             </div>
             
 
-            <div>
-                Score = {this.state.score}
+            <div className="conflictResolverScore">
+                <b>Score: </b>{this.state.score}
             </div>
         </div>
     }

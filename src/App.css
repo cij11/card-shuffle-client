@@ -36,6 +36,26 @@ button {
   padding: 1em;
 }
 
+.conflictResolver {
+  background: rgb(30, 37, 58);
+  padding: 10px;
+  color: white;
+}
+
+.conflictResolverHeading {
+  text-align: center;
+}
+
+.conflictResolverCheckbox {
+  font-size: large; /*No effect */
+}
+
+.conflictResolverScore {
+  font-size: large;
+  padding: 10px;
+  height: 2em;
+}
+
 
 /* #Turquoise Flat Button
 ==================================================*/
