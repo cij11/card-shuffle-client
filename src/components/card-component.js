@@ -33,7 +33,7 @@ class CardComponent extends Component {
         }
 
         return (
-            <div className="cardComponent">
+            <div>
                 <h3 className="cardSection">
                     {this.props.data.title}
                 </h3>
