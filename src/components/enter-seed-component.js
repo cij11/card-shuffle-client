@@ -4,11 +4,9 @@ class EnterSeedComponent extends Component {
 
     render() {
         return (
-            <div>
+            <p>
                 <div className="playerSetupCentering">
-                    Enter a seed word. All players must enter the same seed word:
-                </div>
-                <div className="seedInput">
+                    Enter a seed word:&nbsp;
                     <input type="text"
                         name="seed"
                         
@@ -16,7 +14,11 @@ class EnterSeedComponent extends Component {
                         onChange={this.handleChange.bind(this)}
                     />
                 </div>
-            </div>
+                <div>
+                    (All players must enter the same seed word.)
+                    <break />
+                </div>
+            </p>
         );
     }
 

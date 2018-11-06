@@ -66,6 +66,37 @@ button {
   text-align: left;
 }
 
+.playerNumber {
+  display: inline-block;
+  height: 1.5em;
+  width: 1.5em;
+  font-size: large;
+  background-color: navy;
+  text-align: center;
+}
+
+.selectedNumber {
+  color: #1abc9c;
+}
+
+.unselectedButton {
+  background-color: lightcyan;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.selectedButton {
+  background-color: #1abc9c;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
 
 /* #Turquoise Flat Button
 ==================================================*/

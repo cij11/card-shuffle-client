@@ -10,8 +10,9 @@ class SelectPlayerContainer extends Component {
         return(
             <SelectPlayerComponent selectPlayer={this.props.selectPlayer}
                 seed={this.props.seed}
+                selectNumber={this.props.selectNumber}
                 playerNumber={this.props.playerNumber}
-                text={this.props.playerNumber + 1}
+                text={this.props.selectNumber + 1}
             />
         );
     }
@@ -20,6 +21,7 @@ class SelectPlayerContainer extends Component {
 const mapStateToProps = (state) => {
     return {
         seed: state.seed,
+        playerNumber: state.playerNumber,
     }
 }
 
