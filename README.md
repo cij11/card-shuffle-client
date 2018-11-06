@@ -3,6 +3,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
+## Deploying Card Shuffle 
+
+Card Shuff is built with create-react-app.
+
+Install with `npm install`
+
+Deploy a local development server with `npm start`
+
+Deploy a live site to github pages with `npm deploy`. This publishes the site to `https://cij11.github.io/card-shuffle-client/`
+
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)

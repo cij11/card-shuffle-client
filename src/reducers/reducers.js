@@ -14,7 +14,7 @@ const seed = (seed = fourLetterDateSeed(), action) => {
     }
 }
 
-const decks = (decks = shuffleDecks(initialDecksState()), action) => {
+const decks = (decks = shuffleDecksRandom(initialDecksState()), action) => {
     let newDecks;
 
     switch (action.type) {
@@ -75,8 +75,11 @@ const initialDecksState = () => {
     return initialDecks;
 }
 
-const shuffleDecks = (decks) => {
-    return decks.map(deck => shuffleDeck(deck));
+// Randomly shuffle decks on initial load. Eg, provide 
+// random seed, instead of seed from player setup.
+const shuffleDecksRandom = (decks) => {
+    let random = Math.random().toString();
+    return decks.map(deck => shuffleDeck(deck, random));
 }
 
 const splitDecks = (decks, numPiles, selectedPile) => {
