@@ -50,6 +50,15 @@ const decks = (decks = shuffleDecksRandom(initialDecksState()), action) => {
     }
 }
 
+const playerNumber = (playerNumber = 0, action) => {
+    switch(action.type) {
+        case SELECT_PLAYER:
+            return action.playerNumber;
+        default:
+            return playerNumber;
+    }
+}
+
 const dealFromSelectedDeckNames = (decks, deckNames) => {
     var updatedDecks = [];
     decks.forEach(
@@ -90,6 +99,7 @@ const reducers = combineReducers(
     {
         seed,
         decks,
+        playerNumber,
     }
 )
 

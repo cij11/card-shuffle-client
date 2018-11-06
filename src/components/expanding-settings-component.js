@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import SelectPlayerContainer from '../containers/select-player-container';
+import DisplayPlayerContainer from '../containers/display-player-container';
 import EnterSeedContainer from '../containers/enter-seed-container';
 
 class ExpandingSettingsComponent extends Component {
@@ -23,7 +24,7 @@ class ExpandingSettingsComponent extends Component {
                     <button onClick={this.handleChange.bind(this)}>Player Settings</button>
                     <div style={divStyle}>
                         <EnterSeedContainer />
-                        <div>
+                        <div className="playerSetupCentering">
                             Select player number. Each player must select a different number
                         </div>
                         <div>
@@ -33,6 +34,9 @@ class ExpandingSettingsComponent extends Component {
                           <SelectPlayerContainer playerNumber={3}/>
                           <SelectPlayerContainer playerNumber={4}/>
                           <SelectPlayerContainer playerNumber={5}/>
+
+                          <DisplayPlayerContainer />
+
                         </div>
                     </div>
                 </div>

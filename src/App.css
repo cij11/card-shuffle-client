@@ -56,6 +56,16 @@ button {
   height: 2em;
 }
 
+.seedInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.playerSetupCentering {
+  text-align: left;
+}
+
 
 /* #Turquoise Flat Button
 ==================================================*/
