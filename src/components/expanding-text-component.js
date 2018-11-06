@@ -20,9 +20,15 @@ class ExpandingTextComponent extends Component {
                     Rules
                 </button>
                 <div style={divStyle}>
-                <div>
-                    <RulesComponent isExpanded = {this.state.isExpanded}/>
-                </div>
+                
+                    {this.state.isExpanded && 
+                    <div>
+                        <RulesComponent />
+                        <button onClick={this.handleChange.bind(this)}>
+                                Collapse Rules
+                        </button>
+                    </div>
+                    }
                 </div>
             </div>
         );

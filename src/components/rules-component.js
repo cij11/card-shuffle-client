@@ -2,11 +2,6 @@ import React, { Component } from 'react';
 
 class RulesComponent extends Component {
     render() {
-        if (!this.props.isExpanded) {
-            return (
-                <span></span>
-            );
-        }
         return (
             <div>
                 <h2>My World Now</h2>
