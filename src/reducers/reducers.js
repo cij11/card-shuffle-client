@@ -88,7 +88,11 @@ const initialDecksState = () => {
 // random seed, instead of seed from player setup.
 const shuffleDecksRandom = (decks) => {
     let random = Math.random().toString();
-    return decks.map(deck => shuffleDeck(deck, random));
+    let shuffledDecks = decks.map(deck => shuffleDeck(deck, random));
+
+    shuffledDecks.forEach((deck) => deck.placeCapCard());
+
+    return shuffledDecks;
 }
 
 const splitDecks = (decks, numPiles, selectedPile) => {

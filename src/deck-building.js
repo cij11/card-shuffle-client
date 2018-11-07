@@ -7,10 +7,16 @@ const buildCard = (title, text) => {
     }
 }
 
-const buildDeck = (deckName, cards) => {
+const buildDeck = (deckName, cards, capCard) => {
     return {
         deckName,
         cards,
+        capCard, // If provided, this will be the card on the top of the deck after shuffling
+        placeCapCard: function() {
+            if (this.capCard) {
+                this.cards.push(this.capCard);
+            }
+        }
     }
 }
 

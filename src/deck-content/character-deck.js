@@ -3,6 +3,13 @@ import { buildDeck } from '../deck-building.js';
 const characterCards = [];
 let character;
 
+let capCard = {
+    data: {
+        title: "Character Deck",
+        type: "CapCard",
+    }
+}
+
 character = {
     data: {
         title: "BlankSlate",
@@ -537,4 +544,4 @@ character = {
 characterCards.push(character);
 
 
-export default buildDeck('characters', characterCards);
+export default buildDeck('characters', characterCards, capCard);

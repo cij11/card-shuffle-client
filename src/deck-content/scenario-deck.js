@@ -3,6 +3,13 @@ import { buildDeck } from '../deck-building.js';
 const scenarioCards = [];
 let scenario;
 
+let capCard = {
+    data: {
+        title: "Scenario Deck",
+        type: "CapCard",
+    }
+}
+
 scenario = {
     data: {
         title: "partiallyBuiltBehindTheScenesRoom",
@@ -910,4 +917,4 @@ scenario = {
 scenarioCards.push(scenario);
 
 
-export default buildDeck('scenarios', scenarioCards);
+export default buildDeck('scenarios', scenarioCards, capCard);

@@ -98,6 +98,9 @@ const splitCards = (cards, numPiles, selectedPile) => {
 const splitDeck = (deck, numPiles, selectedPile) => {
     deck.cards = splitCards(deck.cards, numPiles, selectedPile);
 
+    // If a topcard is provided, put this at the top of the split deck
+    deck.placeCapCard();
+
     return deck;
 }
 
