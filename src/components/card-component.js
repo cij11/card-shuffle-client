@@ -3,6 +3,16 @@ import React, { Component } from 'react';
 class CardComponent extends Component {
 
     render() {
+        if (this.props.data.type == "CapCard") {
+            return (
+                <div className="capCard">
+                    <h1>
+                        {this.props.data.title}
+                    </h1>  
+                </div>
+            )
+        }
+
         let paragraphs;
         let rules;
         let items;
@@ -33,7 +43,7 @@ class CardComponent extends Component {
         }
 
         return (
-            <div>
+            <div className="deckCard">
                 <h3 className="cardSection">
                     {this.props.data.title}
                 </h3>

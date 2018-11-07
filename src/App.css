@@ -97,6 +97,20 @@ button {
   display: inline-block;
 }
 
+.capCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 15em;
+  text-align: center;
+  word-spacing: 9999rem;
+  line-height: 5em;
+}
+
+.deckCard {
+  min-height: 15em;
+}
+
 
 /* #Turquoise Flat Button
 ==================================================*/
