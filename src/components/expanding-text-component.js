@@ -16,7 +16,7 @@ class ExpandingTextComponent extends Component {
 
         return(
             <div>
-                <button onClick={this.handleChange.bind(this)}>
+                <button className="expandCollapseButton" onClick={this.handleChange.bind(this)}>
                     Rules
                 </button>
                 <div style={divStyle}>
@@ -24,9 +24,12 @@ class ExpandingTextComponent extends Component {
                     {this.state.isExpanded && 
                     <div>
                         <RulesComponent />
-                        <button onClick={this.handleChange.bind(this)}>
+                        <div className="centerFlex">
+                        <button className="expandCollapseButton" onClick={this.handleChange.bind(this)}>
                                 Collapse Rules
                         </button>
+                        </div>
+
                     </div>
                     }
                 </div>

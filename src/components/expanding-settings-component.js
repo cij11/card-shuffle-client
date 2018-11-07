@@ -20,7 +20,10 @@ class ExpandingSettingsComponent extends Component {
      //   if (this.state.isExpanded) {
             return(
                 <div>
-                    <button onClick={this.handleChange.bind(this)}>Player Settings</button>
+                    <button className="expandCollapseButton"
+                        onClick={this.handleChange.bind(this)}>
+                        Player Settings
+                    </button>
                     <div style={divStyle}>
                         <EnterSeedContainer />
                         <div className="playerSetupCentering">
