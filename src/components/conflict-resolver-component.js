@@ -71,7 +71,7 @@ class ConflictResolverComponent extends Component {
             </div>
             <div>
                 <input type="checkbox" className="conflictResolverCheckbox" checked={this.state.itemChecked.fitting} onChange={ (e) => this.checkItem(e, 'fitting') }></input>
-                Fitting
+                In Character
             </div>
             
             <div>
