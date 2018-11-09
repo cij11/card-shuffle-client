@@ -7,29 +7,66 @@ class RulesComponent extends Component {
                 <h2>My World Now</h2>
                 
                 <p>
-                    You walked through a door, or a portal. Or took a pill. Or fell asleep... or woke up.  
-                    And now... you're here. Somewhere strange, surrounded by weirdos, confronted by something undeniably life threatening. Get out this predicament alive, and your reward?  
-                    You're dumped right in another impossible challenge. 
-                    Someone must be behind this. Someone must know what's going on. You'll play their game, for now. But once you know the rules...
-                    You intend to win.  
+                    My World Now is a game for 3 to 6 players.
                 </p>
 
                 <p>
-                    Each player draws a character card. The player gains all of the abilities and drawbacks of that character.
+                    Improbable characters square off against impossible challenges, to the amusement, scorn, and horror of their friends and loved ones.
                 </p>
+
+                <p>
+                    At the start of play, randomly pick one player to be the 'Master', and a different player to be the 'Leader'. The role of Master and Leader will rotate clockwise during play, as scenerios are passed or failed.
+                </p>
+
+                <p>
+                    At the start of the game, each player draws a character card. When they are the 'Leader' or just in the Group, the player gains all of the abilities and items of that character.
+                </p>
+
+                <p>
+                    When a player becomes Master, they draw a scenario. The Master controls everything about the scenario, except for the players. They choose the things that exist, and the way creatures behave.
+                </p>
+
+                <p>
+                    Each scenario has a challenge. It is the Leader's job to overcome the challenge. It's the Master's job to simulate the challenge, and the world around it.
+                </p> 
+                <p>
+                    Each Turn consists of three phases:
+                    <ol>
+                        <li>Preparation</li>
+                        <li>Execution</li>
+                        <li>Resolution</li>
+                    </ol>
+                </p>
+
+                <p>
+                    <h3>
+                        Preparation
+                    </h3>
+                    <p>
+                        During preparation, a Leader is feeling out the scenario. They can look at things, touch things, do things, and talk to people. The Master tells the leader what they see, what happens, and replies on behalf of the characters they talk to.
+                    </p>
+                    <h3> 
+                        Execution
+                    </h3>
+                    <p>
+                        At some point in the scenario, a conflict will occur. Maybe the player has been seen. Or contradicted. Or obstructed. Or exploded. Either the Leader has done something that is not trivial, or something is about to happen to the Leader that they need to deal with, or perish.
+                    </p>
+                    <p>
+                        The Leader will state their plan for dealing with the conflict. The Master of the Group may interupt them with minor hints of objections, but ultimately it is up to the Leader to state their plan...
+                    </p>
+                    <h3>
+                        Resolution
+                    </h3>
+                    <p>
+                        The Master will listen to the plan, and any objections and modifications arising from anyone playing. They must then check the boxes in the 'Conflict Resolution' panel to assess the Leader's plan... before tapping 'Resolve Conflict'.
+                    </p>
+                </p>
+                    
+                    <p>
+
+                    </p>
+                    If the Leader succeeds, the 'Leader' and 'Master' role shift clockwise. If the Leader fails, the s
                 
-                <p>
-                    One player starts as the DM.
-                    A different player starts as the Leader character.
-                </p>
-
-                <p>
-                    When a player becomes DM, they draw a scenario. Each scenario contains a challenge. The DM controls the challenge with an inflatible iron fist.
-                </p>
-
-                <p>
-                    It is the Leader's job to overcome the challenge. If the Leader succeeds, the entire group steps into/teleports into/is otherwise transported to the next scenario, and the next DM takes the reins.
-                </p>
 
                 <p>
                     The scenario contains some explicit details, but the DM is free to embelish or invent any details they like to flesh out the scenario, and what it means to succeed or fail.
