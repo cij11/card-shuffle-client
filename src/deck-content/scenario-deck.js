@@ -838,7 +838,7 @@ scenario = {
         paragraphs: [
             "You and your army assail the walls of a medieval castle. You've got catapults, battering rams, ladders, siege towers, and a thousand men at arms, but the defends have arrows, thick walls, and pots of scalding oil. ",
             "Sack the castle to win this scenario.",
-            "(Paired card! If the plan 'Under siege' has been drawn, that you be the plan you fight against.)",
+            "(Paired card! If the plan 'Under siege' has been drawn, then that is the plan you overcome.)",
         ],
     }
 };
