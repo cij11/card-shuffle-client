@@ -43,7 +43,18 @@ class RulesComponent extends Component {
                         Preparation
                     </h3>
                     <p>
-                        During preparation, a Leader is feeling out the scenario. They can look at things, touch things, do things, and talk to people. The Master tells the leader what they see, what happens, and replies on behalf of the characters they talk to.
+                        During preparation, a Leader is feeling out the scenario. They can look at things, touch things, do things, and talk to people. The Master tells the leader what they see, what happens, and replies on behalf of the characters they talk to. The Leader can do whatever they want, as long as 
+                        <ol>
+                            <li>
+                                They are careful.
+                            </li>
+                            <li>
+                                The Master is not getting bored. This tension between careful and intersting will almost inevitably lead to...
+                            </li>
+                            <li>
+                                ...Conflict.
+                            </li>
+                        </ol>
                     </p>
                     <h3> 
                         Execution
@@ -52,7 +63,7 @@ class RulesComponent extends Component {
                         At some point in the scenario, a conflict will occur. Maybe the player has been seen. Or contradicted. Or obstructed. Or exploded. Either the Leader has done something that is not trivial, or something is about to happen to the Leader that they need to deal with.
                     </p>
                     <p>
-                        The Leader will state their plan for dealing with the conflict. The Master of the Group may interupt them with minor hints of objections, but ultimately it is up to the Leader to state their plan...
+                        The Leader will state their plan for dealing with the conflict. The Master, or the Group, may interupt them with minor hints of objections, but ultimately it is up to the Leader to state their plan...
                     </p>
                     <h3>
                         Resolution
@@ -66,13 +77,13 @@ class RulesComponent extends Component {
                     The Next Turn
                 </h2>
                 <p>
-                    On a success, the Leader succeeds! The party moves into the next scenario. The Leader and the Master both shift one player clockwise, with the new Master drawing a Scenario.
+                    On a success, the Leader succeeds! The Group moves into the next scenario. The Leader and the Master both shift one player clockwise, with the new Master drawing a Scenario.
                 </p>
                 <p>
-                    On a failure, the Leader fails. They perish. Horribly. The Master narrates their graphic demise, and life goes on. 
+                    On a failure, the Leader fails. They perish. Horribly. The Master narrates the old Leader's graphic demise, and life goes on. 
                 </p>
                 <p>
-                    The defeated Leader draws a new character, and awaits their next turn. The current Leader shifts one player clockwise. The new Leader faces the same Scenario and the same Master, with their recently departed comrade fresh in their mind...
+                    The defeated Leader draws a new character, and awaits their next turn. The new Leader shifts one player clockwise. The new Leader faces the same Scenario and the same Master, with their recently departed comrade fresh in their mind...
                 </p>
             </div>
         );
