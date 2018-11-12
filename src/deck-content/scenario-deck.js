@@ -916,5 +916,260 @@ scenario = {
 };
 scenarioCards.push(scenario);
 
+scenario = {
+    data: {
+        title: "Trapped in 'literature'",
+        type: "Navigation",
+        paragraphs: [
+            "You're trapped in a magazine or a book (Dms choice.) The page or article seems alive around you. In each page, you must make the reader so interested in the story (for a book) or so disgusting , bored, or annoyed at the article (for a magazine) that they simply must get to the next page. 3 pages to escape.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Infuriating Vending Machine",
+        type: "Navigation",
+        paragraphs: [
+            "The MacGuffin for this scenario to this is inside a vending machine. You inserted your money, the roller span... But did not drop the MacGuffin. This is unacceptable.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Golden Ticket",
+        type: "Navigation",
+        paragraphs: [
+            "You need a ticket to win this scenario. It lies in one of a thousand food items (DM's choice) in a hundred shops around the town. The competition is fierce. How do you ensure victory?",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "How I learned to stop worrying and love this game",
+        type: "Task",
+        paragraphs: [
+            "In an underground bunker, neon dotted lines trace the path of nuclear missiles, bombers, and submarines across a map. You have full command, and a red phone gives you a direct line to the opposing general. Your teammates are locked in bunkerd of their own. Survive to win this scenario.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Aquarium",
+        type: "Navigation",
+        paragraphs: [
+            "You are surrounded on all sides by water. Jellyfish, sharks, and other dangerous creatures fill the water around you. One glass wall shows the aquarium beyond, where a small child eats an ice cream, watching you with astonishment. Escape before you drown and/or are eaten.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Kung Fu Fighting",
+        type: "Combat",
+        paragraphs: [
+            "You are wearing a Gi, standing back to back in a circle with your group. Black clad assailants outnumbered and surround you, each armed with a different weapon, inexplicably attacking one at a time. Survive the onslaught to win this scenario.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Heist",
+        type: "Task",
+        paragraphs: [
+            "The key lies in a locked box, in a safe, in a guarded room, at the back of a casino filled with cameras. Your job: case the joint, then assign jobs to your Group to pull off an acceptable heist.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Unleash the hounds",
+        type: "Combat",
+        paragraphs: [
+            "The back yard of this eerie mansion is surrounded by high wrought iron gates, tipped with spikes. Looking, cracked statues, fountains, and sundials fill the courtyards. The house itself has no ground floor windows, and a looming door. You have to get in before someone releases the hounds... Or else flee the property in one piece after. The player may make a second plan to flee if their first plan fails.",
+            "Success on the second plan means the player does not die. Subsequent leaders must venture into the mansion with the dogs prowling.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Hypnotist",
+        type: "Social",
+        paragraphs: [
+            "This should be easy enough. Step off the stage, walk past the crowd, and out the front door. But why is everyone laughing? Because the stage magician running this show has given you three beliefs, traits, or compulsions (1 DM's choice, 2 group's choice).",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Bring Her In",
+        type: "Task",
+        paragraphs: [
+            "You're the pilot. The tower is trying to bring you in.",
+            "Follow their instructions to the best of your abilities.",
+            "Unless, of course, you're evil",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Volcano",
+        type: "Task",
+        paragraphs: [
+            "An erupting volcano disgorges lava down the mountain side.",
+            "You have catapults that toss enormous boulders, and helicopters wielding monsoon buckets of water. Oh, and villagers, but what can they do?",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Voltreque",
+        type: "Combat",
+        paragraphs: [
+            "You find yourself in a tiny cockpit, controls and panels all around you. You're controlling the head of a giant robot. Your team mates control other limbs. Through the eyes of the robot, you can see your foe: a giant (DM's choice.)",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Balloon-O-Rama",
+        type: "Navigation",
+        paragraphs: [
+            "5 bunches of balloons are tied to your shoulders, and 5 sandbags to your feet. Floating a few hundred feet in the air, a strong breeze pushes you through a gauntlet of... (DM's choice)",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Pyrrhic Cloned fight",
+        type: "Combat",
+        paragraphs: [
+            "There are a thousand of you, vs a thousand evil clones of a member of your Group (Group votes, DM tiebreaker).",
+            "Both of you make a battle plan. If more even one more of you survives than them, you win the scenario."
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Long Range Laser Fight",
+        type: "Navigation",
+        paragraphs: [
+            "You're holding a laser that can shoot for miles, and a reflective mirror shield strapped to your arm. A mile away across the terrain of (DM's) choice, you can make out the small figure of your similarly armed opponent. They wave, counts down from 3 on their fingers, and take aim...",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Buried Alive",
+        type: "Task",
+        paragraphs: [
+            "The entire group is squashed together in pitch darkness. Wooden panels surround you, a thin avalanche of dirt falls from above, and oxygen is running out. You've all been buried alive.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Desert Island",
+        type: "Navigation",
+        paragraphs: [
+            "Shipwreck and waterlogged, there's nothing on this island but a palm tree, a dozen odd monkeys, sand, buried treasure, and an oddly sympathetic volleyball. Ships and planes occasionally appear on the horizon, but how can you escape?",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Angry Mob",
+        type: "Social",
+        paragraphs: [
+            "They're after with pitchforks and flaming torches. Maybe they'll calm down in the morning, but now they're hungry for blood.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Big Endian",
+        type: "Combat",
+        paragraphs: [
+            "The date is Current Year, Current Month, Current Day.",
+            "Any army approaches you, and first you think they're very far away... before you realise they are merely very, very small...",
+            "Standing next to you is a person in the garb of a court jester, who offers to assist whoever they may, on this gorgous day of month-day-year."
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Little Endian",
+        type: "Combat",
+        paragraphs: [
+            "The date is Current Day, Current Month, Current Year",
+            "Any army approaches you, and at first you think they must be right upon you... before you realise that they are in fact absolutely ginourmous.",
+            "Standing next to you is a person in a straight jacket who offers to help you any way they can, on this gorgous day of month-day-year."
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Board Game",
+        type: "Task",
+        paragraphs: [
+            "You're trapped as a board game piece (DM's choice of game and game state, then your choice of side and piece.)",
+            "Your movements and actions are constrained to those of your piece, physically and conceptually.",
+            "Win the game or escape the board to win this scenario.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Space Opera",
+        type: "Navigation",
+        paragraphs: [
+            "You look down on a holographic map of the galaxy, twinkling with stars, Criss crossed with trade routes, and blinking with the colored icons of ships and stations.",
+            "By means diplomatic or militaristic, secure your people's place in this far future.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+
 
 export default buildDeck('scenarios', scenarioCards, capCard);
