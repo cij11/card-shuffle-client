@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">My World Now</h1>
+          <h1 className="App-title">Improbable People Impossible Places</h1>
             <div className="wrapper">
               <div className="drawGroup">
                 <ExpandingTextComponent />

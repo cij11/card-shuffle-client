@@ -4,10 +4,10 @@ class RulesComponent extends Component {
     render() {
         return (
             <div>
-                <h2>My World Now</h2>
+                <h2>Ip-Ip (Hurray!)</h2>
                 
                 <p>
-                    My World Now is a game for 3 to 6 players.
+                    <b>Improbable People Impossible Places </b> is a game for 3 to 6 players.
                 </p>
 
                 <p>
