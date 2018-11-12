@@ -10,6 +10,8 @@ let capCard = {
     }
 }
 
+// Template for the scenarios.
+/*
 scenario = {
     data: {
         title: "partiallyBuiltBehindTheScenesRoom",
@@ -22,6 +24,7 @@ scenario = {
     }
 };
 scenarioCards.push(scenario);
+*/
 
 scenario = {
     data: {
@@ -1170,6 +1173,261 @@ scenario = {
 };
 scenarioCards.push(scenario);
 
+scenario = {
+    data: {
+        title: "Murder Mystery",
+        type: "Social",
+        paragraphs: [
+            "It seemed innocent enough. You and the Group show up at the mansion, are introduced to the guests, and shown to your rooms.",
+            "The next morning, one of the guests (DM's choice) is murdered in a horrible fashion (DM's choice) by another guest who has definitely not left the premises (DM's choice).",
+            "For whatever reason, you, the Leader, have been chosen to point out the culprit. Get it wrong, and you get no checks. Get it right, and you get all 3.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "A dream within a dream",
+        type: "Task",
+        paragraphs: [
+            "You wake up from a horrible dream (Leader's choice) into another horrible dream (DM's choice). If you escape this dream, you'll just wake up in another one (first choice from the Group).",
+            "... And from that, you're back in a dream of your own (Leader's choice) and the cycle begins anew.",
+            "You've got to admit, the special effects are phenominal... but there's got to be some way back to reality...",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Inside a Computer",
+        type: "Task",
+        paragraphs: [
+            "The sky is pitch black above a glowing city, eacy blocky building a folder, stuffed with the glittering 1's and 0's of files going about their business. The shuffle on and off the bus, on their way to the superhighway.",
+            "You're in an electronic device (DM's choice). You have to escape to the net, or recover a file of value. The antivirus software has long had you flagged as malicious, though.",
+            "And yes. You can summon a... photon... motorbike.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Plague of Bugs",
+        type: "Combat",
+        paragraphs: [
+            "The sky goes dark. The Earth on the horizon appears to ripple. Through binoculars, you can see an approaching horde if bugs (DM's choice).",
+            "You've got scant minutes to prepare for the onslaught.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Self Destruct Sequence",
+        type: "Navigation",
+        paragraphs: [
+            "You must have had your reasons. But you've gone and done it now. T minus 3 minutes to self destruct. Get your bearings, get a plan, and get out.",
+            "Oh, and you'd better believe the clock starts now. Could someone in the Group please start a countdown? Tick tock...",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Hoodoo Voodoo",
+        type: "Social",
+        paragraphs: [
+            "Okay, you definitely shouldn't have ignored that 'No Trespassing' sign. Your hopelessly lost. Ah, a cottage!",
+            "A person sits on the porch of their bungalo, a drink in one hand. They seem friendly, and relaxed. Almost -too- relaxed, given you and the company you keep. And what are they holding?",
+            "Oh. A little doll. Wait... That looks disturbingly like you...",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "The Objection",
+        type: "Social",
+        paragraphs: [
+            "Two players in the group (DMs choice) are on the altar, about to be wed. By some foul magic, they inexplicably find themselves desperately in love with one another.",
+            "Stand up. Object. Intervene in this crime against god and man.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "The Funeral",
+        type: "Social",
+        paragraphs: [
+            "You are delivering the eulogy at a funeral, as the coffin is being lowered into the Earth.",
+            "Unfortunately, you need what is in that coffin, and the recently bereaved in attendance are entities with short tempers and big angers...",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Cats and Dogs",
+        type: "Task",
+        paragraphs: [
+            "It's raining cats and dogs. Literally. Survive with your skull and sanity intact.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Chemical Lab",
+        type: "Task",
+        paragraphs: [
+            "This cluttered room is stuffed with glassware. Beakers bubble in Bunsen burners, while liquids of all different hues drip and percolate through corkscrewing tubing.",
+            "You know for a fact somewhere in here is a kilo of gold, disolved in a beaker of noxious solvent. Find it.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Possessed Toy Store",
+        type: "Combat",
+        paragraphs: [
+            "It's just a toy store. What could be less scary? Wait... Is that doll looking at you? And that teddy bear seems much closer than before you turned your back to it...",
+            "And that's not even the worst of the 'toys'...",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Sumo",
+        type: "Combat",
+        paragraphs: [
+            "You're standing inside a large circle, scrawled in the sandy Earth. The ground shakes as your opponent enters the ring, a mountain of a person, taller, broader, and undoubtedly girthier than any you've ever met. They plant their feet, and slap their hands together.",
+            "First to touch any ground outside of the ring, loses.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Falling",
+        type: "Navigation",
+        paragraphs: [
+            "Well. Isn't this just the worst. You're falling from an enourmous height. Don't panic though: that distance is, not to put things too delicately 'dropping' rapidly.",
+            "Make your way back home safe, or learn to fly",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Famine",
+        type: "Task",
+        paragraphs: [
+            "You're in a rundown house in a rundown village. The cupboards are empty, and looking at the gaunt, drawn townsfolk shuffling outside, you suspect the stores and fields might not be much more bountiful.",
+            "Survive Autumn and Winter.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Fawke that Guy",
+        type: "Task",
+        paragraphs: [
+            "Parliament is in session. There will never be a better time to blow the whole rotten lot sky high. Well... Not totally wrotten. There's one good member amoung them, who must survive.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Ball Pit Room",
+        type: "Combat",
+        paragraphs: [
+            "Colors! Horrible, horrible colors! This room is filled floor to ceiling with brightly colored plastic baubles.",
+            "But you don't think you're alone in here. Something is... Moving.",
+            "Find the exit, before something finds you.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "The Spire",
+        type: "Navigation",
+        paragraphs: [
+            "You're standing on a tiny platform at the top of a looming marble pillar. There's barely room for the group to huddle without knowing each other off. Wind buffets you relentlessly, and the sides of the pillar are smooth and without handholds. Far, far below, a crowd has gathered, small as ants from up here.",
+            "Find a way down.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Their Doppelganger",
+        type: "Social",
+        paragraphs: [
+            "One member of your group has been replaced with a doppelganger (DMs choice.) Have every player close their eyes, and open them one at a time so that the DM can indicate to them that they are the doppelganger in secret.",
+            "The Leader may ask each group member a single question. That only the real person would know the answer to. Dopplegangers only have evidence they can get from their current surroundings to answer.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Your Doppleganger",
+        type: "Navigation",
+        paragraphs: [
+            "You turn to look at your group... And stop abruptly. There's a new member, and they look, sound, and talk exactly like you. Your group can't tell who is real, and your doppleganger immediately accuses you of being the fake.",
+            "Convince your group of your identity, before they or your doppleganger incapacitate you.",
+            "NOTE FOR DM ONLY. DO NOT READ ALOUD.",
+            "If the Leader loses this, they dies, and the doppleganger survives. Secretly inform them of the following:",
+            "You have died, and the doppleganger has replaced you. Your objective is to get your group members killed. If you interfere with their plans, the DM will deduct ranks from their conflict resolution. Try to act a little bit suspicious, to give them a chance.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "The Jump",
+        type: "Navigation",
+        paragraphs: [
+            "A ramp has been set up on one side of a gaping crevace. You know what to do.",
+        ],
+    }
+};
+scenarioCards.push(scenario);
+
+scenario = {
+    data: {
+        title: "Hangman",
+        type: "Social",
+        paragraphs: [
+            "The world is black, a sack obstructing your vision. A voice reads out the charges laid against you, as a trapdoor creaks beneath your feet. Better hope you've got a long rap sheet, because when they're done talking, they're pulling the lever...",
+        ],
+    }
+};
+scenarioCards.push(scenario);
 
 
 export default buildDeck('scenarios', scenarioCards, capCard);
