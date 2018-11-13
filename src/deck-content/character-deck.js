@@ -1325,5 +1325,27 @@ character = {
 };
 characterCards.push(character);
 
+character = {
+    data: {
+        title: "Collaboration",
+        paragraphs: [
+            "Your character is made up after you draw this card. They are a collaboration between:",
+            "You,",
+            "The Current DM (or the starting DM, if this is the first round),",
+            "And the Group",
+        ],
+        rules: [
+            "(You decide one rule)",
+            "(Current DM decides one)",
+            "(Group decides one rule)",
+        ],
+        items: [
+            "You choose one item",
+            "Current DM chooses one item",
+            "Group chooses one item",
+        ]
+    }
+};
+characterCards.push(character);
 
 export default buildDeck('characters', characterCards, capCard);
