@@ -10,6 +10,8 @@ let capCard = {
     }
 }
 
+// Character Template
+/*
 character = {
     data: {
         title: "BlankSlate",
@@ -32,6 +34,7 @@ character = {
     }
 };
 characterCards.push(character);
+*/
 
 character = {
     data: {
@@ -538,6 +541,629 @@ character = {
         ],
         items: [
             "One treasure horde, enchanted to follow you from scenario to scenario.",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Amorphous Entity",
+        paragraphs: [
+            "Given life by magic or science, you are a sentient, ocassionally humanoid blob of... stuff.",
+        ],
+        rules: [
+            "You are made of a highly viscous substance of your choice, like honey, mercury, or glue.",
+            "You can hold your gloop in humanoid form, collapse into a puddle, or protrude simple implements.",
+            "You have the properties of your substance (i.e, nutritious, sweet, sticky honey), for better or worse.",
+        ],
+        items: [
+            "Jar",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Lizard Person",
+        paragraphs: [
+            "You are a member of an ancient, secret cabal of reptilian humanoids. Wearing a mask to pass as human, your kind secretly controls all major affairs",
+        ],
+        rules: [
+            "If you barely fail a scenario, it turns out that someone in the scenario is secretely on your side. You may attempt a second conflict resolution.",
+            "In each scenario, you must secretly further your global conspiracy.",
+        ],
+        items: [
+            "Financial resources of the American Federal Reserve",
+            "Human mask",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Career Criminal",
+        paragraphs: [
+            "High risk, high reward, your life of crime has prepared you well for the scenarios.",
+        ],
+        rules: [
+            "You are skilled with a lockpick.",
+            "You can quickly identify a way into a premises.",
+            "You must steal something from every scenario.",
+        ],
+        items: [
+            "Kosh",
+            "Pistol",
+            "Mask",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Slasher",
+        paragraphs: [
+            "There's nothing you love more than donning a mask, going out to a rustic cabin, and getting some practice for your stabbing arm.",
+        ],
+        rules: [
+            "You move silently.",
+            "You can survive large injuries, and fake your death convincingly.",
+            "Your victim's decision making abilities are markedly impaired in your presence.",
+        ],
+        items: [
+            "Large rusty weapon",
+            "Mask",
+            "Torn, stained clothes",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Artificer",
+        paragraphs: [
+            "You have a knack for constructing elaborate, if temperamental, mechanisms of clockwork and artistry.",
+        ],
+        rules: [
+            "You can construct gadgets.",
+            "Gadgets are clockwork robots or devices that can carry out a specific purpose. ",
+            "You must describe their appearance and manner of functioning.",
+        ],
+        items: [
+            "Collection of gears, springs, levers, and struts",
+            "Collection of sensors, and single minded clockworth thinking devices",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Master Archer",
+        paragraphs: [
+            "You can shoot the wings off a fly at a hundred paces.",
+        ],
+        rules: [
+            "You can richochet your arrows off hard objects.",
+            "You can fire 3 arrows a second.",
+        ],
+        items: [
+            "Bow",
+            "Arrows",
+            "Flaming arrow",
+            "Rope arrow",
+            "Poison arrow",
+            "Cupid's arrow",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Adventurer",
+        paragraphs: [
+            "You are a professional adventurer. Jack of all trades, Master of adventure.",
+        ],
+        rules: [
+            "You are excellent at detecting traps.",
+            "You are a silled combatant.",
+            "As your sole defining characterestic is a penchant for adventure, your plans are always at least 'In Character'.",
+        ],
+        items: [
+            "Rope",
+            "Torch",
+            "Flint",
+            "Sword",
+            "10 foot poll",
+            "Map",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Caveman",
+        paragraphs: [
+            "Thawed out after 30,000 years, this world is strange and confusing. Snap frozen alongside the dinosaur you were fighting/hunting, the two of you have formed an uneasy alliance against this peculiar future.",
+        ],
+        rules: [
+            "You can only communicate your intentions with grunts and mime.",
+            "You are a skilled Hunter, forager, and survivor.",
+            "You frequently mistake modern technology as magical or threatening in some way.",
+        ],
+        items: [
+            "Club",
+            "Monobrow",
+            "Historically inaccurate pet dinosaur",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Cryptid",
+        paragraphs: [
+            "You are a possibly mythical creature, subject to endless rumours and conspiracy theories. Eg. Bigfoot, Loch Ness Monster, New Zealand moose.",
+        ],
+        rules: [
+            "You have the abilities rumoured to belong to your cryptid.",
+            "At most one non-Group character per scenario is capable of seeing you. They are incapable of convincing other characters of your existence.",
+        ],
+        items: [
+            "None",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Psychic",
+        paragraphs: [
+            "You're a psychic. A real, proper, authentic psychic. For some reason, you have great difficulty convincing others of this fact.",
+        ],
+        rules: [
+            "You can speak with the dead. Unfortunately, they are profoundly vague.",
+            "You can predict the future with 100% accuracy, but your predictions are profoundly vague.",
+            "You can perform magic, provided you are not observed doing it.",
+        ],
+        items: [
+            "Crystal Ball",
+            "Tarrot Cards",
+            "Bent spoon",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Scientist",
+        paragraphs: [
+            "You've devoted your life to study, theory, and experimentation, and that wont stop just because your current predicament is entirely inexplicable.",
+        ],
+        rules: [
+            "You must make a theory about the strange events behind each scenario. Present your theory to everyone, and they will vote on it's plausability. DM gets two votes. If the motion passes by a majority, it is correct.",
+        ],
+        items: [
+            "Lab coat",
+            "Slide rule",
+            "Textbooks",
+            "Pocket protector",
+            "Bubbling flask",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Supersuit",
+        paragraphs: [
+            "You are a sentient super suit or robotic armor, charged with keeping the person weaing you alive and well.",
+            "Your passenger or pilot is an imbecile (played, fittingly, by a different member of the group every scenario).",
+        ],
+        rules: [
+            "You must obey the instructions of your wearer to the letter, although not to the spirit.",
+            "You must not let the character wearing you die.",
+            "You have super speed, strength, and resilience, although your pilot refuses to wear the helmet.",
+        ],
+        items: [
+            "You are a supersuit",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Animate Statue",
+        paragraphs: [
+            "You are statue of (your choice), made of sentient rock. You move at geologic speed, while living creatures zip around too fast to see.",
+        ],
+        rules: [
+            "Inanimate objects will answer questions to the best of their knowledge.",
+            "Animate objects will obey your instructions, but very slowly.",
+            "You cannot pecieve animals, who are not standing still for over an hour, and they don't perceive you as alive or moving.",
+        ],
+        items: [
+            "Bird (on shoulder)",
+            "Fountain",
+            "Plaque",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Gambler",
+        paragraphs: [
+            "You are the consumate gambler. You know when to hold them, when to fold them, and when to run like hell.",
+        ],
+        rules: [
+            "You must gamble in every scenario.",
+            "Other entities will accept your bets if they appear to be fair or in their favour.",
+            "You can attempt to cheat",
+        ],
+        items: [
+            "Dice",
+            "Deck of Cards",
+            "Coin",
+            "Poker chips",
+            "Visor",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Mime",
+        paragraphs: [
+            "You cannot speak. It's annoying, but not as much as the invisible boxes, staircases, and rowboats that seem to litter the environment around you.",
+        ],
+        rules: [
+            "You cannot speak when you are the Leader. You must mime your intentions with charades. The consensus if the room is what you do.",
+            "You have a large collection of invisible but very real object, the usage of which you must mime.",
+        ],
+        items: [
+            "White make-up",
+            "Stripy outfit",
+            "Many and varied invisible objects",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Revolutionary",
+        paragraphs: [
+            "Power to the people! Down with the man. You are an idealistic, charasmatic champion of the people.",
+        ],
+        rules: [
+            "You are very persuasive in recruiting characters to your cause, at which point they become followers.",
+            "If you achieve 2 outstanding successes, your revolution is successful. You become an authority figure, justified in deploying your followers against any who oppose you.",
+        ],
+        items: [
+            "Gun",
+            "Motivational propaganda",
+            "Shirt with your face on it",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Weather God",
+        paragraphs: [
+            "When you've sad, clouds gather, and lightning crashes with your wrath. On the flip side, your smile can literally brighten a day. Hot and cold snaps follow your enthusiasm or depression, and the winds themselves echo your gastrointestinal distress.",
+        ],
+        rules: [
+            "You can control the weather, but your character must be in the corresponding mood to deploy those effects.",
+        ],
+        items: [
+            "Umbrella",
+            "Sunglasses",
+            "Antacids",
+            "Fan",
+            "Glass rod",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Assassin",
+        paragraphs: [
+            "You kill people for money. Not out of malice, just because your career advisor said you should do what you're good at.",
+        ],
+        rules: [
+            "You are very quiet, and can kill anyone you sneak up on.",
+            "You become invisible in even weak shadows.",
+            "After leaving an adversary's line of sight for 30 seconds, they will forget you exist",
+        ],
+        items: [
+            "Sniper rifle",
+            "Dagger",
+            "Disguise kit",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Sports Prodigy",
+        paragraphs: [
+            "You are an unrivaled superstar in your sport of choice. Unfortunately, your obsession with the game has left you delusional about where the game ends and real life begins.",
+        ],
+        rules: [
+            "You have superhuman abilities at your sport of choice.",
+            "You must score a point/goal/etc in each scenario you attempt.",
+        ],
+        items: [
+            "The regulation equipment for your chosen sport",
+            "Orange (sliced in wedges)",
+            "Trophy",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Atlantian",
+        paragraphs: [
+            "Walking around in your water filled landsuit, your sea man powers clearly pick you out as an A tier superherop",
+        ],
+        rules: [
+            "You can breathe underwater.",
+            "You cannot breath on land out side of your suit.",
+            "You can communicate with, although not necessarily command aquatic animals.",
+        ],
+        items: [
+            "Landsuit",
+            "Trident",
+            "Seaweed (stuck to foot)",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Space Hero",
+        paragraphs: [
+            "Zap, pow, bang! You're every bit the brash space Hero, from the top of your immaculatey quaffed hair to the soles of your dashing bright red onsey.",
+        ],
+        rules: [
+            "Everything you do, you do with near suicidal confidence. You have at most 5 seconds to deliberate on any action.",
+        ],
+        items: [
+            "Cracked Ray gun",
+            "Robot pal",
+            "Fishbowl helmet",
+            "Jetpack with fuel that reads 'empty' but you're positive there's a few more drops in the tank.",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Audience Surrogate",
+        paragraphs: [
+            "Compared to your exotic colleagues, you are utterly, painfully mundane. Nevertheless, everyone you meet seems convinced that you're special, important, and destined for greatness",
+        ],
+        rules: [
+            "Ummm, you're very... courageous? Sure. Why not.",
+        ],
+        items: [
+            "Epic destiny",
+            "Macguffin",
+            "Plot armor",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Elemental Fighter (Classic)",
+        paragraphs: [
+            "You were gifted a magical artefact that gave you control of an element from antiquity (Your choice of Earth, Air, Wind, Water, or Fire).",
+        ],
+        rules: [
+            "You can create, dispel, project, or otherwise manipulate your element.",
+        ],
+        items: [
+            "Magical item, the source of your power.",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Elemental Fighter (Modern)",
+        paragraphs: [
+            "You were gifted a magical artefact that gave you control of an element from the periodic table (Your choice).",
+        ],
+        rules: [
+            "You can create, dispel, project, or otherwise manipulate your element.",
+        ],
+        items: [
+            "Magical item, the source of your power.",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Lawyer",
+        paragraphs: [
+            "The best of the best, your legal accumen is so good, that you can even argue against the DM, the judge, jury, and executioner of these scenarios",
+        ],
+        rules: [
+            "I object! You may object to one thing the DM includes in the scenario, and it will be removed.",
+            "Rather than regular conflict resolution, you will be judged by an audience of your peers. A vote will decide if your plan succeeds, with ties going to you.",
+        ],
+        items: [
+            "Briefcase with Evidence",
+            "Bombshell",
+            "Whiskey",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Vampire",
+        paragraphs: [
+            "A haughty, deadly, yet alluring creature of the night, you feed on the blood of lesser mortals.",
+        ],
+        rules: [
+            "You can turn into a bat",
+            "You are vulnerable to sunlight, garlic, and a stake through the heart. You can otherwise not be harmed.",
+            "You must attempt to drain the blood of on character every scenario."
+        ],
+        items: [
+            "Cape",
+            "Coffin",
+            "Cane",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Talking Snake",
+        paragraphs: [
+            "You are a true classic of mythological villany. One of the greats.",
+        ],
+        rules: [
+            "You are very convincing, provided your lies will harm the listener.",
+            "Cursed to crawl on your belly.",
+            "Poisonous bite.",
+            "You can taste infrared.",
+        ],
+        items: [
+            "Apple (partly eaten)",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Reanimator",
+        paragraphs: [
+            "Waste not want not, right? You've mastered the art of restoring life to the dead.",
+            "It's alive... Alive! Kinda!",
+        ],
+        rules: [
+            "When another Leader dies, you can elect to resurrect them as your minion. They retain the abilities they had in life, although they lack the spark of intelligence. This may or may not be a noticable change.",
+            "Many characters will see your stitched up sidekick as an abomination."
+        ],
+        items: [
+            "Bone saw",
+            "Needle and thread",
+            "Lightning rod",
+            "Organ donor card",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Bodyguard",
+        paragraphs: [
+            "You are bound to the Group member you are protecting by duty, honor, or employment. You win by keeping them alive.",
+        ],
+        rules: [
+            "Select another character to be your 'Charge'. You are tasked with protecting them.",
+            "When you are a Leader, your objective is always 'Keep my charge alive'. If you fail, you die in the process of protecting your charge.",
+            "When your charge is Leader, if they fail a conflict, you must make a plan to save them. On success, you both live. On failure, they die. Pick a new charge.",
+        ],
+        items: [
+            "Earpiece",
+            "Sidearm",
+            "Bullet proof vest",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Evil Mastermind",
+        paragraphs: [
+            "Some of these scenarios look... familiar. Did you... did you have a hand in creating them? No matter how much you stroke your cat, the memory escapes you...",
+        ],
+        rules: [
+            "You have set a devious trap in every room.",
+            "You have loyal, expendible henchmen. They are borderline non-functional at problem solving, marksmanship, and situational awareness.",
+        ],
+        items: [
+            "Cat",
+            "Monicle",
+            "Traps",
+            "Expendible hench-persons",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Miner",
+        paragraphs: [
+            "You know tunnels, rock, and the process of introducing the former to the latter. And not much else.",
+        ],
+        rules: [
+            "You are skilled at excavating holes and tunnels.",
+            "In each scenario where you excavate, you must state what thing of value you expect to find, along with why or how you will locate it.",
+        ],
+        items: [
+            "Pickaxe",
+            "Dynamite",
+            "Headlamp",
+            "Canary + Cage",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Witch or Warlock",
+        paragraphs: [
+            "Hexes, curses, and headology are your stock and trade. Each scenario, you may cast one of the following spells",
+        ],
+        rules: [
+            "Polymorph: you may turn a living being into a tiny creature, the size of a toad or rat or smaller.",
+            "Charm: For the duration of the scenario, the creature will believe you are a good friend, with their best interests at heart",
+            "Summon familiar: You summon a cat, monkey, eagle, or other similarly sized creature, which will follow your instructions for the duration of the scenario",
+        ],
+        items: [
+            "Clock",
+            "Flying broomstick",
+            "Cauldren",
         ]
     }
 };
