@@ -40,7 +40,7 @@ character = {
     data: {
         title: "Ghost",
         paragraphs: [
-            "You’re dead, but not departed. Your specral form persists in this world, dripping ectoplasm everywhere. ",
+            "You’re dead, but not departed. Your spectral form persists in this world, dripping ectoplasm everywhere. ",
         ],
         rules: [
             "You can possess living creatures for a short period.",
@@ -1164,6 +1164,162 @@ character = {
             "Clock",
             "Flying broomstick",
             "Cauldren",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Paladin",
+        paragraphs: [
+            "You are an armoured knight, a crusader for all that is good and holy... From your own self righteous perspective, anyway.",
+        ],
+        rules: [
+            "When you encounter a character or group, make a snap judgement about whether they are good or evil.",
+            "You must protect the good, and smite the evil.",
+        ],
+        items: [
+            "Armor",
+            "Warhammer",
+            "Shield",
+            "Warhorse",
+            "Holy Symbol",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Survivor",
+        paragraphs: [
+            "You're a blast from the past, an unbreakable bunker dweller. You spent the best part of your life underground, hiding from a disaster that may or may not have occurred.",
+        ],
+        rules: [
+            "You are convinced that the world was destroyed by the real or imagined disaster that made you seek shelter underground.",
+            "You have an endearing naivite that makes people like and trust you easily.",
+            "On a failed conflict, you realize that your whole life has been a lie, and become psychotic. A second failed conflict will end your career.",
+        ],
+        items: [
+            "Tinned food",
+            "Magazines (well read)",
+            "Pipe Rifle",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Anthropomorphic Personification",
+        paragraphs: [
+            "You are the living embodiment of some abstract concept or emotional. It's reflected deeply in your personality, appearance, and mannerisms.",
+        ],
+        rules: [
+            "You can accentuate or diminish this trait in others.",
+            "You have an affinity for objects and places that exemplify your trait.",
+            "Your plans must manipulate or incorporate the trait.",
+        ],
+        items: [
+            "Outfit",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Hunter of Monsters",
+        paragraphs: [
+            "If it lives, you'd like to kill it. Not for sport, no. That would be wasteful. You craft the materials from your kills into weapons, armor, and tools... In order to hunt monsters more efficiently.",
+        ],
+        rules: [
+            "You can craft gear out of the carcasses of defeated foes that would put Gilligan's coconut radio to shame.",
+        ],
+        items: [
+            "Simple Sword",
+            "Plain Armor",
+            "Basic Shield",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "RPG Hero",
+        paragraphs: [
+            "Here you are, just starting out on your adventure. How fortunate for you that it seems like the entire world is built to be challenging but not outright fatal to someone of your abilities! Is it just your imagination though, or are things getting progressively harder?",
+        ],
+        rules: [
+            "The world seems to be laid out so that everything is about as hard as you could plausibly handle.",
+            "Scenarios are easy when you begin (the DM should modify or describe them to be simpler) and get more difficult as you gain power (The DM should add or upgrade the challenges)",
+            "Each scenario, you find an upgrade to one of your items (DM's choice). It must be appreciably superior to the one it replaces.",
+        ],
+        items: [
+            "Simple Sword",
+            "Plain Armor",
+            "Basic Shield",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Rebel",
+        paragraphs: [
+            "You're a rebel. A wildcard. A loose cannon. You ain't about to follow no stinking rules.",
+        ],
+        rules: [
+            "For each scenario, your objective is the opposite of the one stated.",
+            "Where this would mean your inevitable death, you miraculously survive.",
+        ],
+        items: [
+            "Leather jacket",
+            "Cigarette",
+            "Motorcycle",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Remote Controller",
+        paragraphs: [
+            "You are unwilling or unable to manipulate the larger world through conventional force of muscle, using technology to impose your will on your surroundings instead."
+        ],
+        rules: [
+            "You cannot move beyond that which is required to control your items.",
+            "You cannot ascend an incline greater than 30 degrees.",
+        ],
+        items: [
+            "Electric wheelchair or scooter",
+            "Voice synthesizer",
+            "Drone",
+            "Disability services card",
+        ]
+    }
+};
+characterCards.push(character);
+
+character = {
+    data: {
+        title: "Swashbuckler",
+        paragraphs: [
+            "En guard! Have at you! Equally at home on land and at sea, you steal hearts as easily as you claim booty, with feats of bravery and daring do.",
+        ],
+        rules: [
+            "You are an expert at parkour",
+            "You are a skilled if reckless combatant",
+            "You must challenge hostile characters to a duel",
+        ],
+        items: [
+            "Rapier",
+            "Flintlock pistol",
+            "Eye mask",
         ]
     }
 };
