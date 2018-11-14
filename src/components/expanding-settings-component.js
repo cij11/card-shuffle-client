@@ -27,7 +27,7 @@ class ExpandingSettingsComponent extends Component {
                     <div style={divStyle}>
                         <EnterSeedContainer />
                         <div className="playerSetupCentering">
-                            Player number:&nbsp;
+                            Player:&nbsp;
 
                             <SelectPlayerContainer selectNumber={0}/>
                             <SelectPlayerContainer selectNumber={1}/>
